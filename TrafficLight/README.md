@@ -17,7 +17,7 @@ is a view of one face of a traffic light, with a change button, which employs th
 is a view of one face of a traffic light, with a change button, which employs the Observer Pattern.
 
 ### Comparison of the Two Schemes
-Either the Dependency Mechanism or the Observer Pattern can be used to accomplish communication among objects without using the class hierarchy in the normal way. They differ in the methods used. At minimum, the Dependency Mechanism requires the #addDependent:, #changed, and #update: methods. In contrast, the Observer Pattern uses the #when:send:to: family and the #triggerEvent: methods. There is no equivalent to the #addDependent: method and no requirement to have an #update: method. The name of the method "sent" in the Observer Pattern is unrestricted. Models in both schemes must be in the ActiveModel hierarchy.
+Either the Dependency Mechanism or the Observer Pattern can be used to accomplish communication among objects without using the class hierarchy in the normal way. They differ in the methods used. At minimum, the Dependency Mechanism requires the #addDependent:, #changed, and #update: methods. In contrast, the Observer Pattern uses the #when:send:to: family and the #triggerEvent: methods. Equivalent to the #addDependent: method is the #when:send:to: family. There is no requirement to have an #update: method. The name of the method "sent" in the Observer Pattern is unrestricted. The #triggerEvent: method is used instead of #changed:. Models in both schemes must be in the ActiveModel hierarchy.
 
 
 [1] Goldberg and Robson, "Smalltalk-80, the Language and its Implementation", pp 240 - 243
