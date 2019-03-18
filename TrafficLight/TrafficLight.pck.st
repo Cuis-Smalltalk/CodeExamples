@@ -1,6 +1,6 @@
-'From Cuis 5.0 of 7 November 2016 [latest update: #3652] on 17 March 2019 at 3:55:24 pm'!
+'From Cuis 5.0 of 7 November 2016 [latest update: #3652] on 18 March 2019 at 12:45:56 pm'!
 'Description Comparing the Dependency Mechanism to the Observer Pattern which uses #triggerEvent: and #when:send:to:'!
-!provides: 'TrafficLight' 1 76!
+!provides: 'TrafficLight' 1 77!
 SystemOrganization addCategory: #'TrafficLight-Model'!
 SystemOrganization addCategory: #'TrafficLight-Views'!
 
@@ -470,6 +470,11 @@ quit
 		ifTrue: [self delete]
 		ifFalse: [self owner delete]! !
 
+!TrafficLight class methodsFor: 'new-morph participation' stamp: 'dhn 3/18/2019 12:42:10'!
+includeInNewMorphMenu
+	"Not to be instantiated from the menu"
+	^ false! !
+
 !Example1 methodsFor: 'operation' stamp: 'dhn 3/10/2019 21:09:53'!
 cycle
 	"Turn on the next light"
@@ -593,6 +598,11 @@ open: aName
 	str contents: aName.
 	win openInHand! !
 
+!Example3 class methodsFor: 'new-morph participation' stamp: 'dhn 3/18/2019 12:43:06'!
+includeInNewMorphMenu
+	"Return true for all classes that can be instantiated from the menu"
+	^ true! !
+
 !Example4 methodsFor: 'operate' stamp: 'dhn 3/15/2019 13:20:55'!
 cycle
 	"Turn on the next light"
@@ -680,3 +690,8 @@ open: aName
 		ifAbsent: [ 'none' ].
 	str contents: aName.
 	win openInHand! !
+
+!Example4 class methodsFor: 'new-morph participation' stamp: 'dhn 3/18/2019 12:43:38'!
+includeInNewMorphMenu
+	"Return true for all classes that can be instantiated from the menu"
+	^ true! !
