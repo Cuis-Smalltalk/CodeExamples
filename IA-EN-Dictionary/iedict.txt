@@ -1,4 +1,4 @@
-# IEDICT - 1 November 2012 - Paul Denisowski (paul@denisowski.org)
+# IEDICT - 15 Februart 2015 - Paul Denisowski (paul@denisowski.org)
 a : to, at, for
 a alcun momento futur : at some point in the future
 a alte voce : at the top of one's voice
@@ -132,6 +132,7 @@ ab le ver principio : from the very beginning
 ab matino a vespere : from morning to evening
 ab ovo : ab ovo, from the (very) beginning
 ab sinistra verso dextera : from left to right
+ab tote le mundo : from all over the world
 ab un latere ... ab le altere : on (the) one hand ... on (the) other hand
 ab un latere ... e ab le altere latere : on the one hand ... and on the other hand
 abaca : abaca, Manilla hemp
@@ -342,7 +343,7 @@ abrogator : abrogator
 abrogatori : rescinding, abrogating
 abrumper : to break off, rend
 abrumpite : interrupted, broken off
-abrupte : abrupt
+abrupte : steep, abrupt
 abruptessa : abruptness, brusqueness, steepness
 Abruzzi : Abruzzi
 Absalom : Absalom
@@ -379,7 +380,7 @@ absinthic : absinthial, absinthic
 absinthina : absinthin
 absinthio : absinthe
 absinthismo : absinthism
-absolute : absolute, umlimited, unconditional
+absolute : absolute, total, unlimited, unconditional
 absolutemente : absolutely, completely
 absolutemente false : completely false, totally wrong
 absolutemente impossibile : completely impossible
@@ -387,7 +388,8 @@ absolutemente necun : none at all
 absolutemente nihil : nothing at all, absolutely nothing
 absolutemente nulle : none at all
 absolutemente secur : completely safe
-absolution : absolution, remission, acquittal
+absolution : absolution, forgiveness, remission, acquittal
+absolutisar : to absolve
 absolutismo : absolutism
 absolutista : absolutist
 absolutistic : absolutist
@@ -398,11 +400,13 @@ absorbente : absorbent, absorbing
 absorbentia : absorbency
 absorber : to absorb, collect, take in
 absorber le attention : to capture, hold one's attention
+absorber multe tempore : to take a lot of time
 absorber se in : to absorb oneself in
+absorbite in pensamentos : absorbed in one's thoughts, lost in thought
+absorbite in pensatas : absorbed in one's thoughts, lost in thought
 absorbibile : absorbable
 absorbimento : absorbtion
 absorbite in : absorbed in
-absorbite in pensatas : lost in thought, absorbed in thought
 absorbite in un libro : absorbed in a book
 absorption : absorption
 absorption de calor : heat absorbtion
@@ -435,6 +439,8 @@ abundantemente : abundantly
 abundantia : abundance
 abundantia de ideas : abundance of ideas
 abundantia de parolas : abundance of words
+abundantia de detalios : an abudance of details
+abundantia de flores : an abudnance of flowers
 abundantissime : very abundant
 abundar : to abound, be plentiful
 abundar in : to abound in or with
@@ -453,6 +459,7 @@ abyssin : Abyssinian
 Abyssinia : Abyssinia
 abyssino : Abyssinian
 abysso : abyss
+a cata passo : with each step
 acacia : acacia
 academia : academy
 academia de canto : choral society
@@ -486,17 +493,23 @@ accelerar su morte : to hasten one's death
 accelerar un reaction chimic : to accelerate a chemical reaction
 accelerate : accelerated, sped up
 acceleration : acceleration
-accelerator : accelerator
+accelerator : accelerating; accelerator
+accelerogramma : accelerogram
+accelerographo : accelerograph
+accelerometro : accelerometer
+accendalia : kindling (wood)
+accendecigarro : cigar lighter
 accendalia : kindling
 Accende le lumine! : Put the light on!
 accende-cigarros : cigar lighter
-accende-gas : gas lighter
+accendegas : gas lighter
 accender : to light, kindle, turn on (light, radio)
 accender se : to start
-accendibile : inflammable, combustible
+accendibile : flammable, inflammable, burnable, combustible
 accendimento : lighting, kindling
 accendimento defectuose : misfire
 accendimento retardate : delayed iginition
+accenditor automatic : automatic lighter
 accenditor : (cigarette) lighter. igniter
 accenditor de gas : gas lighter
 accenditor de tasca : pocket lighter
@@ -518,7 +531,7 @@ accento de phrase : phrase accent
 accento de reproche : reproachful tone (of voice)
 accento dynamic : dynamic accent
 accento final : final accent
-accento grave : grave accent, accent grave (e.g. e)
+accento grave : grave accent, accent grave
 accento initial : initial accent
 accento legier : light accent
 accento musical : musical accent
@@ -530,9 +543,12 @@ accento tonal : tonic accent, tonal accent
 accento tonic : tonic accent
 accento tonic: tonic accent, tonal accent
 accentuar : to accentuate, accent
-accentuation : accentuation
-acceptabile : acceptable
+accentuate : accented
+accentuation : accenting, accentuation, stress
+accentuation de un parola : stress, accenting of a word
+acceptabile : acceptable, satisfactory
 acceptabilitate : acceptability
+acceptabilitate de un proposition : acceptability of a proposal
 acceptar : to accept
 acceptar alicuno cortesemente : to receive someone politely
 acceptar nulle consilio : to not listen to advice
@@ -542,19 +558,27 @@ acceptation del bagages : baggage check
 acceptator : acceptor, receiver
 acception : acceptation
 accessibile : accessible
-accessibilitate : accessibility
-accession : accession
+accessibilitate : accessability
+accessibilitate de un loco : accessability of a place
+accession : accession, admittance, entrance
+accession de un pais al Union Europee : acceptance in the European Union
 accession a candela : candle-lighting
 accession al throno : accension to the throne
-accesso : access
+accesso : access, approach; fit, attack, storm
 accesso al autostrata : on-ramp, entrance (to a highway)
-accesso de cholera : fit of anger, fit of rage
+accesso al jardin : yard or garden access
+accesso de asthma : asthma attack
+accesso de cholera : attack of rage, fit of anger
+accesso de dolor : attack of pain
+accesso de febre : attack of fever
 accesso de follia : fit of madness
-accesso de ira : fit of anger, fit of rage
+accesso de ira : attack of anger, fit of rage
 accesso de rabie : attach of rage,  fit of anger
-accesso de riso : attack of laughter, outburst of laughter
+accesso de rage : attack of rage, fit of anger
+accesso de riso : attack of laughter, outburst of laughter, laughing fit
 accesso de tusse : coughing fit, coughing attack
 accesso de vertigines : attack of dizziness
+accesso epileptic : epileptic attack
 accessori : accessory, adjunct
 accessorio : accessory
 accidental : accidental, nonessential, happening by chance
@@ -576,9 +600,12 @@ accollada : accolade
 accollar : to embrace, salute with an accolade
 accommodabile : adaptable, adjustable
 accommodamento : settlement of disputes
+accommodante : accompanying
+accommodar se al circumstantias : to adapt to circumstances
 accommodar : to accommodate, adapt, settle
-accommodation : adaptation, accommodation
-accommodator : accommodator
+accommodar un querela : to settle an argument
+accommodation : arrangement, agreement, control, adaption, accomodation
+accommodator : accommodator, someone who reaches an agreement
 accompaniamento : accompanying, retinue, attendance, accompaniment
 accompaniar : to accompany
 accompaniator : accompanist
@@ -1045,6 +1072,7 @@ agente : agent, active power, one who acts for another
 agente de cambio : stockbroker
 agente de policia : policeman, police officer
 agentia : agency
+agentia de novas : news agency
 ager : to act, be doing
 ager se : to concern
 agglomerar : to agglomerate, gather or heap together
@@ -1117,6 +1145,7 @@ agulia : needle, gramophone needle
 agulia magnetic : magnetic needle
 aguliata : needleful (of thread)
 agulietta : aglet, aiguillette
+a iste tempore : at that time
 aigrette : aigrette
 aira : threshing floor
 ajornamento : adjournment, postponement
@@ -1148,9 +1177,15 @@ al fundo del corde : at the bottom of one's heart
 al gratin : au gratin
 al hasardo : at random
 al infinito : ad infinitum
-al labor! : to work!
+a la : a la
+a la carts : a la carte
+a la viennese : in the Viennese manner
 al latere : aside
-al latere de : at the side of, side
+al latere de : at the side of, side, beside
+al latere positive : on the positive side
+alcohol absolute : absolute alcohol
+alcoholisate : alcoholic, addicted to alcohol
+alcun tempore retro : some time ago, some time back
 al le vive : to the quick
 al leva : on/to the left
 al levar del sol : at sunrise
@@ -1321,6 +1356,7 @@ allargar : to widen
 allectar : to lay up in bed
 allectate : bedridden
 allee : avenue, walk, alley
+allee de accesso : driveway
 allegar : to allege
 allegation : allegation
 allegoria : allegory
@@ -1349,6 +1385,7 @@ alliantia defensive : defensive alliance
 alliar : to ally
 alliar se : to form an alliance
 alliato : ally
+al litore pacific : pacific coast
 alligar : to bind, attach (to), alloy
 alligato : alloy
 alligator : alligator
@@ -1377,6 +1414,7 @@ almosna : alms
 almosneria : almonry
 almosnero : almoner, almsgiver
 almosniera : alms purse, alms bag
+al pede de : at the foot of, at the bottom of
 aloda : lark
 alora : then, at that time, in that case, consequently, well
 Alpes : Alps
@@ -1470,6 +1508,7 @@ amator : lover
 amatori : amatory
 amazon : amazon, horsewoman, virago
 amazonie : Amazonian
+a medietate ebrie : half-drunk
 ambassada : embassy
 ambassator : ambassador
 ambe : both
@@ -2031,9 +2070,12 @@ anxie : anxious, uneasy, worried, eagerly desiring
 anxietate : anxiety, uneasiness, eager desire
 aorta : aorta
 aortic : aortic
+a outrance : a outrance, in the extreme
+a partir de ora : starting now
 apathia : apathy
 apathic : apathetic
 ape : bee
+a pedes nudes : barefoot
 ape femina : queen bee
 ape mascule : drone
 ape matre : queen bee
@@ -2240,6 +2282,7 @@ aqua : water
 aqua ammoniac : ammonia water
 aqua benedicte : holy water
 aqua de Colonia : cologne, eau de Cologne
+aqua del pluvo : rainwater
 aqua dulce : fresh water (as opposed to salt water)
 aqua forte : aqua fortis, nitric acid
 aqua mineral : mineral water
@@ -2253,6 +2296,7 @@ aquar : to water, sprinkle with water
 aquarella : water color painting
 aquarellista : water-color painter
 aquario : aquarium; Aquarius, Water Bearer
+aqua salin : salt water
 aquatic : aquatic
 aquatile : aquatic
 aqueducto : aqueduct
@@ -2458,6 +2502,7 @@ armar un persona cavallero : to dub someone a knight
 armario : wardrobe, cupboard
 armas : arms
 armas blanc : side-arms
+armas chimic : chemical weapons
 armas de destruction de massa : weapons of mass destruction
 armas de foco : fire-arms
 armas defensive : arms of defense
@@ -2773,6 +2818,7 @@ atomo : atom
 atone : atonic, unstressed
 atonia : atony
 atonic : atonic
+a tote precio : at any price, at all costs
 atque : and, and also, and even
 atrabile : atrabile, melancholy, black bile, gloom
 atrabiliari : atrabiliary, melancholic, gloomy, depressed in spirit
@@ -2974,6 +3020,7 @@ autoritari : authoritative, dictatorial, authoritarian
 autoritarismo : authoritarianism
 autoritate : authority
 autostrata : highway
+autostudio : self-study
 autumnal : autumnal
 autumno : autumn, fall
 autumo : autumn
@@ -3043,6 +3090,7 @@ avivamento : reviving, vivifying, heightening
 avivar : to revive, vivify, heighten
 avo : grandfather
 avocatiero : avocado (tree)
+a voce basse : in a low voice
 avocato : avocado, alligator pear
 avoirdupois : avoirdupois
 avulsion : avulsion, tearing away
@@ -3391,6 +3439,8 @@ benevolentia : benevolence, good will
 benigne : benign, kind, gentle
 benignitate : benignity, kindness
 benvenite : welcome
+benvenite a : welcome to
+benvenite retro : welcome back
 benzina : benzene
 benzina super : super gasoline
 benzoato : benzoate
@@ -3655,6 +3705,7 @@ bon : good
 bon companion : jolly fellow
 bon die! : Hello!, Good day!, Good morning!
 bon fide : good faith
+bon fortuna a : good luck to
 bon manieras : good manners
 bon matino : Good morning
 bon mesura : good or ample measure
@@ -3662,6 +3713,7 @@ bon nocte! : good night!
 bon officios : good offices
 bon samaritano : good Samaritan
 Bon sojorno! : Enjoy your stay!
+bon successo! : good luck, much success
 Bon venite : Welcome
 Bon vespere : Good evening
 Bon viage! : Bon voyage!
@@ -3870,6 +3922,7 @@ bruxellese : of Brussels, inhabitant of Brussels
 bucca : mouth, muzzle (of firearms)
 bucca de foco : piece of ordnance
 bucca de metro : metro entrance, subway entrance
+bucca de un vulcano : mouth of a volcano
 buccal : buccal
 buccata : mouthful
 bucla : curl, curled lock of hair
@@ -4003,6 +4056,7 @@ cader per terra : to fall, fall down
 cadetto : cadet, younger son or brother, student at a military school
 cadita : fall, falling
 cadita de aqua : waterfall
+cadita de nive : snowfall
 cadmium : cadmium
 cafe : coffeehouse, cafe
 caffe : coffee, cafe
@@ -4076,6 +4130,7 @@ calefacer : to warm, heat
 calefaciente : calefacient, calefactive
 calefaction : heating, calefaction
 calefaction central : central heating
+calefaction global : global warming
 calefactor : calefactor, heater
 calendario : calendar
 calendario julian : Julian calendar
@@ -4595,6 +4650,7 @@ caso : case, occasion
 caso ablative : ablative case
 caso de conscientia : matter of conscience
 caso oblique : oblique case
+caso vocative : vocative case
 caspie : Caspian
 Caspio : Caspian
 cassa : box, case, cashbox, till, coffin, casket, pay desk
@@ -4758,6 +4814,7 @@ cavalletto : wooden horse, work)bench, trestle, easel
 cavallo : horse
 cavallo arabe : Arabian horse
 cavallo de guerra : war horse
+cavallo de labor : work horse
 cavallo femina : female horse
 cavallo troian : Trojan horse
 cavallo vitiose : vicious horse
@@ -4830,6 +4887,7 @@ cemento armate : reinforced cement
 cemeterial : pertaining to a cemetery
 cemeterio : cemetery, graveyard
 cena : evening meal, supper, dinner
+cena nocture : evening meal
 cenaculo : dining room, (literary, artistic) club or group
 cenar : to sup, dine, have supper or dinner, take the evening meal
 cenobio : cenoby
@@ -5013,6 +5071,7 @@ Charybdis : Charybdis
 chassa : hunting, chase, game
 chassar : to hunt, chase (away), drive off
 chassator : hunter, huntsman, chaser
+chassator furtive : poacher
 chassis : chassis
 chauffeur : chauffeur
 chauvinismo : chauvinism
@@ -5319,6 +5378,7 @@ claque : claque
 clar : clear, light
 Clara : Clare
 clara : white-of-egg, glair
+clarmente : clearly
 clarar : to clarify, clear, purify, explain
 clarette : pale, light-colored
 claretto : light red wine, claret
@@ -5348,6 +5408,7 @@ claude : limping, lame
 clauder : to close, shut, stop up, bring to an end
 claudicar : to limp
 claudication : limping, limp
+claudite al interior : locked from the inside
 clause : close, closed, finished, completed
 clauso : enclosure, enclosed space
 claustral : cloistral
@@ -5832,6 +5893,7 @@ compensator : compensator
 compensatori : compensating, compensatory
 competente : competent, qualified, suitable, proper
 competentia : competence
+competentia absolute : complete compentence
 competer : to compete, belong by right, be due
 competition : competition
 competitor : competitor
@@ -5930,6 +5992,7 @@ con cura : carefully, with care
 con duo horas de retardo : two hours late
 con effusion : effusively
 con fervor : fervently
+confidentia absolute : complete confidence
 con impatientia : Impatiently
 con intention : intentionally, purposely
 con isto in mente : with this in mind
@@ -5947,6 +6010,7 @@ con ration o non : rightly or not
 con resentimento : resentfully
 con salutes amical : with friendly greetings
 con successo : successfully
+con successo variate : with varying degrees of success
 con un minimo de difficultate : with a minimum of difficulty
 con un oculo a : with an eye to
 con un successo inequal : with unrivaled success
@@ -6744,6 +6808,7 @@ corollate : corollate, corollated
 corollifere : corolliferous
 corolliforme : corolliform
 corona : wreath, crown, crown, corona, coronet
+corona votive : votive crown
 coronal : coronal, crown
 coronamento : coronation
 coronar : to crown
@@ -6790,6 +6855,7 @@ correspondentia invasive : junk mail
 corresponder : to correspond, respond
 corresponder a : to correspond to or with
 corridor : corridor, hallway
+corridor de accesso del/pro le jocatores : competitors entrance
 corriger : to correct, set right, chastise
 corriger se : to reform, become better
 corrigibile : corrigible, capable of being set right or reformed
@@ -6925,6 +6991,7 @@ crassitate : crassitude, thickness, crassness, grossness
 crassitude : crassitude, thickness, crassness, grossness
 crastine : of tomorrow, tomorrow's
 crater : crater
+crater de vulcano : vulanic crater
 crateriforme : crateriform
 cravata : necktie, tie, scarf, cravat
 crear : to create
@@ -7025,6 +7092,7 @@ crista de gallo : cockscomb
 cristate : crested, tufted
 critar : to cry, cry out, scream, shriek, shout
 critar al lupo : to cry wolf
+critar esserea inutile : yelling would be pointless
 criterio : criterion
 critic : critical
 critica : criticism, critique
@@ -7427,6 +7495,8 @@ dar fide : to give, pledge, one's faith
 dar fundo : to cast anchor
 dar imposto a : to pay taxes to
 dar in presto : to loan, lend (to sb)
+dar accesso a : to give access to
+dar le absolution a un peccator : to absolve a sinner
 dar le cartas : to deal cards
 dar le preferentia a : to give preference to
 dar le tono : to give the pitch
@@ -7442,6 +7512,7 @@ dar se pena : to take pains
 dar super : to overlook
 dar un exemplo : to set an example
 dar un mal exemplo : to give a bad example
+dar un supervista de : to give an overview of
 dardane : Dardanian, Trojan
 Dardanellos : Dardanelles
 Dardania : Dardania
@@ -7465,6 +7536,7 @@ David : David
 de : from, since, of
 de ... a : from/since ... to
 de ... usque (a) : from/since ... to
+de accesso facile : easily accessable
 de accordo : in accord
 de acordo con : in agreement with
 de alte rango : of (high) rank
@@ -7811,6 +7883,7 @@ del : of the
 del altere parte : on the other hand
 del mal al pejo : from bad to worse
 del mano al mano : directly, without intermediary
+del mesme maniero : in the same way
 del mesmo modo : in the same way
 del parte de : on the part of
 del prime colp : at first glance
@@ -8830,7 +8903,7 @@ disobligar : to disoblige, offend
 disoccupar : to vacate, evacuate, empty
 disoccupar se : to give up work
 disoccupate : unoccupied, idle
-disoccupation : idleness
+disoccupation : idleness, unemployment
 disodorante : deodorant
 disordinar : to disorder
 disordinate : disorderly
@@ -9267,6 +9340,7 @@ duello : duel
 duettista : duettist
 duetto : duet
 dulce : sweet, pleasant, soft, gentle
+dulce-amar : bittersweet
 dulcificar : to dulcify
 dulcification : dulcification
 dulcor : sweetness
@@ -9319,6 +9393,9 @@ durante longe tempore : for a long time
 durante que : while
 durante tante tempore como vos place : for as long as you please
 durante un anno : for a year
+durante multe annos : for many years
+durante plure annos : for many years
+durante tote le anno : all year long
 durar : to last, endure
 duration : duration
 duressa : hardness, harshness, duress
@@ -9373,6 +9450,7 @@ ecclesia methodista : Methodist church
 ecclesia metropolitan : metropolitan church
 Ecclesia militante : Church militant
 Ecclesia orthodoxe : Orthodox Church
+ecclesia votive : votive church
 Ecclesiasta : Ecclesiast
 ecclesiasta : ecclesiastic
 Ecclesiastes : Ecclesiastes
@@ -9410,6 +9488,7 @@ ecologista : ecologist
 ecologo : ecologist
 economato : stewardship
 economia : economy
+economia de abundantia : affluent economny
 economia de guerra : war economy
 economia de tempore : saving of time
 economia politic : political economy, economics
@@ -9528,6 +9607,8 @@ ejector : ejector
 el : he, him
 elaborar : to elaborate
 elaboration : elaboration
+e-lector : ebook reader
+e-libro : ebook
 elastic : elastic
 elasticitate : elasticity
 elastico : elastic, elastic band
@@ -9725,6 +9806,7 @@ empleata : employee (female)
 empleato : employee
 empleator : employer
 empleo : employment, occupation, use
+empleo absolute de un verbo transitive : absolute use of a transitive verb
 emption : purchase
 emptor : buyer, purchaser
 empyree : empyreal
@@ -10018,6 +10100,7 @@ erudition : erudition
 erudito : scholar, learned person
 erumper : to burst, sunder, break out, burst forth, erupt
 erumper in lacrimas : to burst into tears
+eruption de un vulcano : volcanic eruption
 eruption : eruption
 eruption herpetic : herpetic eruption
 eruptive : eruptive
@@ -10052,8 +10135,10 @@ escorta : escort
 escortar : to escort
 escudo : escudo
 Esculapio : Aesculapius
+es dicite esser : it is said to be
 esmeraldin : emerald, emerald-green
 esmeraldo : emerald
+es multo difficile si non impossibile : it's very difficult, if not impossile
 esophagee : esophageal, oesophageal
 esophago : esophagus, oesophagus
 esopic : Aesopian, Aesopic
@@ -10098,6 +10183,7 @@ esser a dieta : to be on a diet
 esser absente : to be absent, be away
 esser absente al lectiones : to miss class, be absent from classes
 esser absente de casa : to not be at home
+esser absorbite in un subjecto : to be absorbed in a subject
 esser absolvite : to be aquitted
 esser accendite : to burn, be lit
 esser al currente de : to be well informed about
@@ -10119,6 +10205,7 @@ esser de pauc adjuta : to be of little help
 esser de retorno : to be back (again)
 esser del competentia de : to be within the competence of
 esser familiar con : to be familiar with
+esser fidel a : to be faithful to
 esser forte in historia : to be good in history
 esser habile a su empleo : to be good at one's job
 esser human : human being
@@ -10142,6 +10229,7 @@ esser in le secreto : to be in the secret
 esser in lucto pro : to be in mourning for
 esser in mal terminos con : to be on bad terms with
 esser in minoritate : to be in the minority
+esser in plen marcha : to be well underway
 esser in possession de : to be in possession of
 esser in stato de abandono : to be in a state of neglect
 esser in stato de facer un cosa : to be in a position to do something
@@ -10152,10 +10240,12 @@ esser incantate de un cosa : to be delighted at something
 esser indebitate : to be in debt or indebted
 esser indisposite contra un persona : to be unfriendly to someone
 esser le centro del attention : to be the center of attention
+esser passionate pro : to be passionate about
 esser poeta nate : to be a born poet
 esser reputate : to be reputed (to be), have the reputation (of being)
 esser satis : to be enough
 esser sedite : to sit, be sitting or seated
+esser sol in casa : to be home alone
 esser sin consideration : to be inconsiderate
 esser strabe : to squint, be squint-eyed
 esser sub le pavor de : to be in fear of
@@ -10168,7 +10258,9 @@ esser totalmente de accordo : to be in complete agreement
 esser tote aures : to be all ears
 esso : this, that
 essugar : to dry, wipe, mop up
+essuger los oculos : to dry one's eyes
 est : east
+estnordic : east-nordic
 establimento : establishment, institution, organization, business
 establimento de credito : loan society, credit establishment
 establir : to establish, found, set up
@@ -10421,7 +10513,8 @@ exception peremptori : peremptory exception
 exceptional : exceptional
 excessive : excessive
 excesso : excess
-excider : to cut out or off, excide
+excider : to cut out or off, excise
+excider un tumor : to excise a tumor
 excipiente : excipient
 excisar : to excise
 excision : excision
@@ -10895,6 +10988,8 @@ facietta : facet (of diamond, of insect's eye)
 faciettar : to facet (diamonds)
 facile : easy, not difficult, with ease
 facile a apprender : easy to learn
+facile a leger : easy to read
+facile de accesso : easily accessable
 facilitar : to facilitate, make easy
 facilitate : facility, ease
 facilitates : facilities
@@ -11539,6 +11634,7 @@ for : out of doors, outside, out, from without, beyond, except
 for de : outside of, without
 for de se : beside oneself
 foramine : hole, aperture
+foramine de accesso : manhole
 foramine del serratura : keyhole
 foraminiferos : Foraminifera
 foraminose : perforated
@@ -11611,6 +11707,7 @@ forsythia : forsythia
 fortalessa : fortress
 forte : fort, forte, strong point; strong(ly), hard, forte
 fortia : force, power, violence
+fortia accelerator : force of acceleration, accelerating force
 fortia brute : brute force
 fortia centrifuge : centrifugal force
 fortia centripete : centripetal force
@@ -12210,6 +12307,7 @@ genite : begotten
 genitival : genitival
 genitive : generative, genitive, possessive
 genitivo : genitive
+genitivo absolute : asbolute genitive
 genitor : sire, begetter
 genitores : parents
 genitura : generation, begetting, offspring
@@ -12701,6 +12799,7 @@ guarnitura : trimming, garniture
 guastafesta : party-pooper, spoil-sport, kill-joy
 guastar : to spoil, damage, waste, squander
 guastar tempore : to waste time
+guasto de tempore : waste of time
 guastator : spoiler (of material), waster, squanderer
 guelfe : Guelph
 guelfo : Guelph
@@ -12855,6 +12954,7 @@ habeas corpus : habeas corpus
 haber : possessions, belongings, holdings (n.); to have (v.)
 haber a : to have to, be obliged to
 haber a su disposition : to have at one's disposal
+haber accesso : to have access
 haber bon gusto : to have good taste
 haber bon naso : to have a good nose
 haber bon opinion de un persona : to have a good opinion of someone
@@ -12885,9 +12985,11 @@ haber loco : to take place
 haber lunas : to have moods
 haber mal de stomacho : to have a stomach-ache
 haber mal opinion de un persona : to have a bad opinion of someone
+haber moneta in abundantia : to have lots of money, have money in abudance
 haber multe importantia : to be of great importance
 haber nihil a adder : to have nothing to add
 haber nihil a facer con : to have nothing to do with
+haber nulle ration por : to have no reason to
 haber origines nobile : to be of noble origins
 haber parte in : to have a part in
 haber pavor : to be afraid
@@ -13236,6 +13338,7 @@ hispanista : Hispanist
 hispano : Spaniard, Spanish (language)
 hispanoamerican : Spanish American, Hispano-American
 hispanoamericano : Spanish American
+hispanophone : Spanish-speaking
 hispanomauresc : Hispano-Moresque
 hissar : to hoist
 histogene : histogenous
@@ -13333,6 +13436,7 @@ homomorphismo : homomorphism
 homonyme : homonymous
 homonymia : homonymy
 homonymo : homonym, homophone
+homophilo : homosexual
 homophone : homophonous
 homophono : homophone
 homoptere : homopterous
@@ -13681,11 +13785,13 @@ il es a expectar alora que : it is thus to be expected that
 Il es a notar que : It is to be noted that
 il es estranie como : it's strange how
 il es hic a mentionar que : it should be mentioned here that
+il es le spero que : it is hoped that
 il es melior non parlar : it's better not to speak
 il es necessa que : it is necessary that
 il es necessari que : it is necessary that
 Il es octo horas : It is eight o'clock
 Il es un placer facer vostre cognoscentia : It's a pleasure to make your acquaintance
+il es utile : it is useful
 il es ver, nonne? : it is true, isn't it?, isn't that so?
 Il face belle tempore : It's lovely weather, the weather is good
 il face frigido : it is cold (weather)
@@ -13715,6 +13821,7 @@ illa : she, it
 Illa dava nascentia a un puero : She gave birth to a boy
 Illa face le commissiones : She does the shopping
 Illa face un visita a un amica : She visits a friend
+illa habeva un alibi multo acceptabile : she had a good alibi
 Illa ha le aer de esser malade : She seems (to be) ill
 Illa ha pressa : She is in a hurry
 Illa se brossa le dentes : She brushes her teeth
@@ -14084,6 +14191,7 @@ importunitate : importunity
 imposition : laying (up) on, imposition
 impossibile : impossible
 impossibilitate : impossibility
+impossibilitate absolute : compeltely impossible
 imposta : impost
 imposto : tax, duty, impost
 impostor : swindler, cheat, impostor
@@ -14103,6 +14211,7 @@ imprecision : lack of precision
 impregnabile : (apt or liable) to be impregnated
 impregnar : to impregnate, make pregnant, permeate, imbue
 impregnation : impregnation
+imprime-a-demanda : print on demand
 impremeditate : unpremeditated
 imprendibile : impregnable
 imprendibilitate : impregnability
@@ -14257,12 +14366,14 @@ in le initio de : at the beginning of
 in le interesse de un persona : in or to somebody's interest
 in le interim : in the interim
 in le medio del nocte : in the middle of the night
+in le mesme maniera : in the same way
 in le mesme modo : in the same way
 in le nomine de deo : in the name of god, in god's name
 in le nomine del lege : in the name of the law
 in le perspective curte : in the short run
 in le perspective longe : in the long run
 in le principio : in the beginning
+in le prime persona : in the first person
 in le processo de : in the process of
 in le profunde de su corde : in the depths of his heart
 in le proximitate de : near, in the proximity or vicinity of
@@ -14292,6 +14403,8 @@ in miniatura : in miniature
 in minor grade : to a lesser extent
 in modo : ... -ly
 in modo special : especially
+in multe casos : in many cases
+in multe tal casos : in many such cases
 in nomine de : in the name of, on behalf of
 in nulle caso : in no case
 in nulle parte : nowhere
@@ -14350,7 +14463,7 @@ in surplus : left over, extra
 in tanto que : inasmuch as, insofar as
 in television : on television
 in toto : entirely, wholly, in toto
-in toto e per toto : entirely, wholly
+in toto e per toto : entirely, wholly, in sum, in total, in all, altogether
 in ultra : moreover, in addition
 in un batter de palpebras : in the wink of an eye
 in un certe modo : in a certain way
@@ -15201,6 +15314,8 @@ inscientia : ignorance, lack of knowledge, information
 inscriber : to inscribe, engrave or write on metal, stone, paper
 inscriber se : to enroll, enlist, register
 inscription : inscription
+inscription votive : votive sign, votive inscription
+in scripto : in writing
 inscrupulose : unscrupulous
 inscrutabile : inscrutable
 inscrutabilitate : inscrutability
@@ -15238,6 +15353,7 @@ insignia : ensign, badge or emblem of office, standard, banner
 insignificante : insignificant
 insignificantia : insignificance
 insimul : general effect, ensemble; together
+insimul con : together with
 insincer : insincere
 insinceritate : insincerity
 insinuante : insinuating, ingratiating
@@ -15368,6 +15484,7 @@ intabulamento : entablature, entablement
 intabular : to board up
 intacte : intact
 intactile : not tactile
+in tal casos : in such cases
 intangibile : intangible
 intangibilitate : intangibility
 intascar : to pocket, put in a pocket
@@ -15586,7 +15703,7 @@ intorsion : intorsion
 intoxicar : to poison
 intoxication : toxication, poisoning
 intra : inside
-intra breve : soon, shortly, before long
+intra breve : soon, shortly, before long, in the near future
 intra breve tempore : soon
 intra cinque metros ab le signales : within five meters from the lights
 intra la quadro de : in the framework of
@@ -15712,6 +15829,7 @@ inviar : to send
 inviato : envoy, messenger, representative
 inviato de deo : (one) sent by god
 invicte : unvanquished
+in vice : instead
 invide : envious
 invidia : covetousness, envy, feeling of envy
 invidiabile : enviable
@@ -15769,6 +15887,7 @@ io ha fame : I am hungry
 io ha frigido : I am cold
 io ha le costume de duchar me : I‘m used to having a shower
 io ha mal hic : I feel bad here
+io ha mi dubitas : I have my doubts
 io ha nulle tempore a leger : I have no time to read
 io ha orgolio : I am proud
 io ha pressa : I am in a hurry
@@ -15785,6 +15904,7 @@ io me interessa a/in/pro geographia : I am interested in geography
 io me nomina/appella Ian : My name is Ian
 io mesme : I myself
 io no es de accordo con vos : I don't agree with you
+io no ha dubita re isto : there is no doubt about that
 io no ha le minor idea : I haven't got the foggiest idea
 io non lo ha visitate desde mi infantia : I have not visited it since my childhood
 io non pote aperir le valvula : I can't turn the tap on
@@ -16012,6 +16132,7 @@ isthmo : isthmus
 Isthmo de Panama : Isthmus of Panama
 isto : this
 isto es multo de moda : This is very much in fashion
+isto face nihil : it makes no difference
 isto me duce a creder, que ... : This leads me to think that ...
 isto non es del toto correcte : This is not at all right
 ita : thus, so, just so, yes, and so, consequently, accordingly, under the circumstances
@@ -16068,7 +16189,7 @@ Japon : Japan
 japonese : Japanese (Japanese language, native of Japan)
 jardin : garden
 jardin botanic : botanical garden
-jardin zoologic : zoological garden
+jardin zoologic : zoo, zoological garden
 jardinage : (art of) gardening
 jardinar : to garden
 jardineria : gardening, gardener's trade or business
@@ -16308,6 +16429,7 @@ labio : lip
 labio leporin : harelip
 labiodental : labiodental
 labor : work, toil, labor
+labor acceptabile : acceptable work, satisfactory work
 labor ingrate : thankless job
 labor manual : manual labor
 labor non-finite : unfinished work
@@ -16403,6 +16525,7 @@ lampa de tasca : flashlight
 lampada : lamp
 lampadario : lampadary, candelabrum
 lampadero : lamp-maker
+lampa votive : votive lamp
 lampion : lampion, Chinese lantern
 lampista : lamp-maker or lamp seller, lamp-lighter, lampman
 lampisteria : lamp shop
@@ -16590,6 +16713,7 @@ le altere cammino es abandonate : the other road is no longer used
 le altos e le bassos : the ups and downs
 le ambulatura le costa multe pena : it's hard for him to walk
 le amor de deo : the love of god, god's love
+le accesso del terreno es interdicite/prohibite : access to this land is prohibited
 le ancianos : the ancients
 le anno currente : the current year, this year
 le anno in curso : the current year, this year
@@ -16597,6 +16721,7 @@ le anno passate : last year
 le anno presente : the current year, this year
 le anno proxime : next year
 le annos sexanta : the sixties
+le annos de abundantia : years of abundance
 le annos verde : the green years
 le Annunciation : the Annunciation
 le antecedentes de un persona : someone's antecedents
@@ -16629,6 +16754,7 @@ le classe basse : the lower class
 le colpo de gratia : coup de grâce
 le Confederatos : the Confederates
 le consilio de relaxar se : the advice to relax
+le corno de abundantia : cornucopia
 le corpore politic : the body politic
 le cosa juste : the right thing
 le cosa le plus importante in le mundo : the most important thing in the world
@@ -16678,6 +16804,7 @@ le hora supreme : the last hour, the hour of death
 le Immaculate Conception : the Immaculate Conception
 le Insula de Esmeraldo : the Emerald Isle
 le integre mundo : the entire world
+le integre precio : the full price
 le ir le costa multe pena : it's hard for him to walk
 Le joco ha loco : The game is taking place
 Le jovedi vespere : On Thursday night
@@ -16702,6 +16829,7 @@ le medietate del : half the
 le medietate del mundo : half the world
 Le meeting habeva loco a Manchester : The meeting took place in Manchester
 le melior : the best
+le mesme die : the same day
 le mie e le tue : mine and thine
 le millesime parte : the thousandth part
 le millesimo : the thousandth
@@ -16736,6 +16864,7 @@ le ordine de abandonar le nave : the order to abandon ship
 le ordines minor : the minor orders
 le origines de un cosa : the beginnings of a thing
 le ovo de Columbo : the egg of Columbus
+le papa es infallibile quando ille parla ex cathedra : the Pope is infallible when he speaks ex cathedra
 le parola de deo : the word of god
 le partes del discurso : the parts of speech
 le partes del oration : the parts of speech
@@ -16746,6 +16875,7 @@ le pejor : the worst
 le peninsula del Sinai : Sinai Peninsula
 le personas absente habeva torto : the absent parties are always wrong
 le pisca miraculose : the miraculous draught of fishes
+le plantas verde absorbe le gas carbonic del atmosphera : plants absorb carbon dioxide from the atmosphere
 le plus : the most
 le plus belle : the most beautiful
 le plus grande : the greatest, biggest
@@ -16754,6 +16884,7 @@ le pluvias acide : acid rain
 le pomo de discordia : the apple of discord
 le popula commun : the common people
 le porta remane aperte a : the door is open to
+le prime vice : the first time, at first
 le Proverbios : the Proverbs
 le proxime vice : (the) next time)
 Le puera es belle, nonne? : The girl is pretty, isn't she?
@@ -16776,6 +16907,7 @@ le rapto del sabinas : the rape of the Sabines
 le regno animal : the animal kingdom
 le regno mineral : the mineral kingdom
 le regno vegetal : the vegetable kingdom
+le regulas del accentuation russe : the rules of Russian stress or accentuation
 le Renascentia : the Renaissance
 le rendimento de un machina : the efficiency of a machine
 le responsa al question : the answer to the question
@@ -16809,6 +16941,7 @@ le Societate del Nationes : the League of Nations
 le societate melior : the upper-class
 le sol se pone : the sun sets
 le spirito sancte : the Holy Ghost
+le spongia absorbe le aqua : the sponge absorbs water
 le sponsos : the married couple, husband and wife
 le sposos : the married couple, husband and wife
 le Statos Unite : the United States
@@ -16821,6 +16954,7 @@ le tempore presente : the present tense
 le terra sancte : the Holy Land
 le tertie parte : the third part
 le tertio : third
+le tinta es absorbite per le papiro : the ink is absorbed by the paper
 le tonsion de auro : the Golden Fleece
 le toto : the whole
 le trentesime parte: the thirtieth part
@@ -17150,6 +17284,7 @@ lingua fonte : source language
 lingua foranee : foreign language
 lingua franc : lingua franca
 lingua mandarin : Mandarin (language)
+lingua maternal : mother tongue, mother language
 lingua materne : mother tongue, native language
 lingua matre : parent language
 lingua national : national language
@@ -17567,6 +17702,7 @@ magnification : exaltation, act of exalting or extolling
 magnificente : magnificent, munificent
 magnificentia : magnificence, munificence
 magnitude : magnitude, greatness
+magnitude absolute : absolute magnitude
 mago : magus, mage, magician, sorcerer
 magre : lean, thin, meager
 magressa : leanness, thinness
@@ -17592,6 +17728,7 @@ majorar : to make greater
 majordomo : major-domo
 majoria : majority
 majoritate : majority
+majoritate absolute : absolute majority
 majuscula : capital, capital letter
 majusculas : capital letters
 majuscule : capital
@@ -17609,6 +17746,7 @@ mal herba : weed
 mal informate : misinformed
 mal manieras : bad manners
 mal nascite : lowborn
+mal sanitate : poor health, bad health
 mal tempore : bad weather
 mal voluntate : ill will
 mal-intentionate : ill-intentioned
@@ -18547,6 +18685,7 @@ mimosaceas : Mimosaceae
 mimosacee : mimosaceous
 mimose : sensitive
 mina : mine
+mina de auro : gold mine
 minar : to undermine, mine, dig for ore or metal
 minaret : minaret
 minator : miner
@@ -18649,6 +18788,7 @@ missa : Mass
 missa basse : Low Mass
 missa solemne : Solemn Mass, High Mass
 missal : missal
+missa votive : votive mass
 mission : mission
 missionario : missionary
 Mississippi : Mississippi
@@ -18903,6 +19043,7 @@ monumental : monumental
 monumento : monument
 mora : delay, mora; mulberry, fruit of the mulberry
 moral : moral; morals, moral, morale
+moral duple : double standard
 moralisar : to moralize
 moralisation : moralization
 moralisator : moralizer
@@ -18997,6 +19138,7 @@ motocycletta : motorcycle
 motocyclista : motorcyclist
 motocyclo : motorcycle
 motor : motor, motive
+motor a cercar : search engine
 motor Diesel : Diesel engine, Diesel motor
 motorcyclista : motorcyclist
 motorcyclo : motorcycle
@@ -19168,6 +19310,7 @@ musello : muzzle
 museo : museum
 museo de guerra : war museum
 musica : music
+musica absolute : absolute music
 musica de camera : chamber music
 musical : musical
 musicante : musician
@@ -19517,6 +19660,7 @@ New York : New York
 nexo : nexus, connection
 ni : neither, nor, also not
 ni ... ni ... : neither ... nor ...
+ni le un ni le altere : neither one nor the other
 ni carne ni pisce : neither fish nor fowl
 nichar : to niche, put in a niche
 niche : niche
@@ -19650,6 +19794,7 @@ non haber tempore a perder : to have no time to lose
 non ignorar : to know very well, be well aware of
 Non importa : It doesn't matter, never mind
 non mal de toto : not bad at all
+non multe tempore retro : not long before, not long ago
 non plus : no more, no longer
 non plus ultra : non plus ultra
 non poter digerer un cosa : to be unable to stomach or swallow something
@@ -19716,6 +19861,7 @@ nota : note, school mark, grade, bill, account
 nota acute : high-pitched sound
 nota de banca : banknote
 nota marginal : marginal note
+nota a pede : footnote
 notabile : notable
 notabilitate : notability
 notacanthe : notacanthous, spiny-backed
@@ -19863,6 +20009,7 @@ o ... o ... : either ... or
 oasis : oasis
 ob : towards, before, in front of, on account of, because of
 obediente : obedient
+obedientia absolute : absolute obedience
 obedientia : obedience
 obedir : to obey
 obedir a un lege : to obey a law
@@ -19904,6 +20051,7 @@ oboe : oboe
 oboista : oboist
 obra : work
 obra de arte : work of art
+obra referential : reference work
 obrero : worker, workman
 obscen : obscene
 obscenitate : obscenity
@@ -20076,6 +20224,7 @@ offensa : offense, act of offending
 offensiva : offensive
 offensive : offensive
 offensor : offender, one who offends
+offerta acceptabile : acceptable, satisfactory offer
 offerer : to offer (something), bid
 offerer se a facer un cosa : to offer to do something
 offerta : offer
@@ -20550,6 +20699,7 @@ pacchettar : to pack, wrap, packet
 pacchetto : package, parcel, packet
 pacco : pack, bundle
 pace : peace
+pace acceptabile : acceptable peace
 pace armate : armed peace
 pace de deo : peace of god
 pachyderme : pachydermatous
@@ -20774,6 +20924,7 @@ papilionaceas : Papilionaceae
 papilionacee : papilionaceous
 papilionar : to flutter, flit
 papilla : papilla
+papilla gustative : taste bud
 papillar : papillary
 papillectomia : papillectomy
 papireria : stationer's (shop), stationery
@@ -20939,6 +21090,7 @@ partibile : divisible
 participante : sharer, participant
 participar : to share, partake, participate
 participation : participation
+participation in : participation in
 participator : participator
 participe : sharing, participant
 participial : participial
@@ -21421,12 +21573,15 @@ perder le patientia : to lose patience
 perder le sensos : to lose consciousness
 perder le tempore : to waste time
 perder le testa : to lose one's head
+perder peso : to lose weight
 perder se : to lose one's way, go astray
 perder se in un digression : to lose oneself in a digression
+perder terreno : to lose ground
 perder un traino : to miss a train
 perdibile : losable
 perdice : partridge
 perdita : loss
+perdita de tempore : waste of time
 perditas : casualties, losses
 perdition : ruin, perdition
 perdurabile : perdurable
@@ -21503,6 +21658,7 @@ perla : pearl
 perla de vitro : glass bead
 perla oriental : orient or oriental pearl
 perlar : to pearl
+permagelo : permafrost
 permanente : permanent, lasting, enduring
 permanentia : permanence
 permaner : to endure, last, be permanent
@@ -21513,6 +21669,7 @@ permeabilitate : permeability
 permear : to permeate
 permissibile : permissible
 permission : permission
+permission in scripto : written authorization, permission in writing
 permisso : permit, written permission
 Permitte me de presentar me. Io es ... : Allow me to introduce myself. I am ...
 Permitte me de presetnar vos a mi marita : Allow me to introduce you to my wife
@@ -21579,7 +21736,9 @@ persister : to persist, endure, continue to exist
 persister in un error : to persist in an error
 persister in un resolution : to persist in a resolution
 persona : person, character
+persona accommodante : companion
 persona ben conservate : well-preserved person
+persona de accesso difficile : an unapproachable person
 persona de condition : person of rank, of quality
 persona de confidentia : trustworthy person
 persona de marca : person of mark
@@ -22468,6 +22627,7 @@ poner un parola inter virgulettas : to put a word in quotation marks
 poner veto a : to veto
 pontar : to bridge, build a bridge over
 ponte : bridge
+ponte de accesso : access bridge
 ponte de disbarcamento : gangplank
 ponte del asinos : asses' bridge, pons asinorum
 ponte levatori : drawbridge
@@ -22504,6 +22664,7 @@ por alicun tempore : for some time
 por assi dicer : so to speak
 por dicer le minus : to say the least
 por dicer le veritate : to tell the truth
+por le prime vice : for the first time
 por le secunde vice : for the second time
 por un curte tempore : for a short time
 por un tempore : for a time
@@ -22536,6 +22697,7 @@ porque : why, for what reason, because
 porracee : porraceous
 porro : leek
 porta : door, doorway, gateway, gate
+porto de accesso facile : easily accesible port
 porta de communication : communicating door
 porta practicabile : practicable door
 Porta Sublime : Sublime Porte
@@ -22604,6 +22766,7 @@ post : behind, back, backwards, afterwards, after
 post J.C. : A.D.
 post lor retorno de Scotia : after they returned from Scotland
 post que : since, because
+post toto : after all
 post un curte tempore : after a short time
 posta : post, mail, postal service, post office
 posta aeree : air mail
@@ -22658,6 +22821,8 @@ potentialitate : potentiality
 potentias occidental : western powers
 potentilla : potentilla, cinquefoil
 poter : power, ability to do or act; to be able to, can, be allowed to, may, be possible
+poter absolute : absolute power
+poter de accommodation (del oculo) : ability (of the eye) to focuse
 potestate : power, might
 potion : potion
 potius : rather, more truly, more accurately, sooner, preferably
@@ -23100,6 +23265,7 @@ pro : for, in place of, in exchange or return for
 pro alicun ration : for some reason
 pro esso : for this reason, for that reason, therefore
 pro forma : pro forma, as a formality
+pro isto : for this reason
 pro ille occasion : on that occasion
 pro ir al schola : in order to go to school
 pro isso : for this reason, for that reason, therefore
@@ -23313,6 +23479,7 @@ prominente : prominent
 prominentia : prominence, conspicuousness
 promiscue : mingled together, promiscuous
 promiscuitate : promiscuity, promiscuousness
+promissa absolute : unconditional promise
 promissa : promise, betrothed, fiancee
 promisso : betrothed, fiance
 promissor : promiser
@@ -23415,6 +23582,7 @@ prosecution : pursuit, action of carrying on
 prosemita : pro-Semite
 prosemitic : pro-Semitic
 prosemitismo : pro-Semitism
+pro sempre : forever
 prosequer : to pursue, carry on
 prosodia : prosody
 prosodic : prosodic, prosodical
@@ -23479,6 +23647,7 @@ protruder : protrude
 protrusion : protrusion
 protuberantia : protuberance
 protuberar : to swell or bulge out
+pro uso noncommercial : for non-commerical use
 prova : proof
 prova ontologic del existentia de deo : ontological proof of god's existance
 prova positive : positive
@@ -23688,7 +23857,7 @@ puncto de exclamation : exclamation point
 puncto de honor : point of honor
 puncto de interrogation : question mark
 puncto de partita : starting point
-puncto de vista : point of view
+puncto de vista : point of view, viewpoint
 puncto delicate : delicate or ticklish point
 puncto e virgula : semicolon
 puncto morte : dead point, dead center
@@ -23856,6 +24025,7 @@ qual : which, what
 Qual cosa ha evenite? : What's happened?
 Qual cosa ha tu dicite? : What did you say?
 Qual damno! : What a pity!
+qual die! : what a day!
 Qual die es hodie? : What day is it today?
 Qual es le hora exacte? : What's the correct time
 Qual es le numero del telephono? : What's the ‘phone number?
@@ -24424,6 +24594,7 @@ rediger : to draw up (a document, speech), edit
 redimer : to redeem, buy back, clear of (charges, obligations, ransom), liberate
 redimibile : redeemable
 redingote : frock coat
+re-distribution : redistribution
 redolente : redolent
 redolentia : redolence, redolency
 redoler : to smell (of), be redolent (of)
@@ -24972,6 +25143,7 @@ resplendentia : (great) brightness, resplendence
 resplender : to shine, be resplendent
 respondente : respondent
 responder : to answer, reply
+responder a questiones : to answer questions
 responder a un cosa : to correspond to something
 responder a un littera : to answer a letter
 responder a un persona : to answer someone
@@ -24982,6 +25154,7 @@ responder de un cosa : to answer, vouch for (a thing)
 responder negativemente : to answer negatively, in the negative
 responder pro un persona : to answer, vouch for a person
 responsa : answer, reply
+responsa abrupte : abrupt response
 responsabile : responsible, answerable, accountable
 responsabile de : responsible for, liable for
 responsabilitate : accountability, responsibility
@@ -25116,6 +25289,7 @@ Revelation : Revelation, Apocalypse
 revelator : revealer, developer
 reveller : to revulse, divert by revulsion
 revender : to resell
+re-vendita : resale
 revendita : resale
 revenditor : reseller
 revenir : to come again, come back, return
@@ -25308,6 +25482,7 @@ robuste : robust
 robustessa : robustness
 roc : rook, castle
 rocca : distaff, staff for holding flax or wool; rock, large mass of stone
+rocca abrupte : steep rocks
 rocca erratic : erratic block or boulder
 roccata : distaff-full
 rocchetta : rocket
@@ -25762,6 +25937,7 @@ sanitate delicate : delicate or frail health
 sanitate mental : sanity, mental health
 saper : knowledge, learning; to know, have knowledge of
 saper facer un cosa : to know how to do something
+saper plus re : to know more about
 sapide : sapid, saporous
 sapiditate : sapidity
 sapiente : wise, discerning, sapient
@@ -25877,6 +26053,7 @@ scabiose : scabious, mangy
 scafolt : scaffold, place of execution
 scala : ladder, staircase, stairs, scale
 scala chromatic : chromatic scale
+scala de accesso : access stairs
 scala diatonic : diatonic scale
 scala mobile : escalator, moving staircase, sliding scale
 scalada : escalade
@@ -26299,6 +26476,7 @@ sententiar : to sentence
 sententiose : sententious
 sentiente : sentient
 sentiero : path
+sentiero abrupte : steep path
 sentimental : sentimental
 sentimentalismo : sentimentalism
 sentimentalitate : sentimentality
@@ -26344,6 +26522,7 @@ septime : seventh
 septuplar : to septuple, multiply by seven
 septuple : septuple, sevenfold
 septuplicar : to septuple
+sepulcrar in vita : to bury alive
 sequente : following, next
 sequentia : sequence
 sequer : to follow
@@ -26551,6 +26730,7 @@ significative : significant, significative
 significato : meaning, significate
 significator : signifier, signifying, significant
 signo : sign, symbol, mark, indication, gesture, motion
+signo de accentuation : accent mark, stress mark
 signo de ditto : ditto marks
 signo de exclamation : exclamation mark
 signo de interrogation : question mark
@@ -26559,6 +26739,7 @@ silentiar : to silence
 silentiario : silentiary
 silentiator : silencer
 silentio : silence
+silentio absolute : complete silence
 silentiose : silent, quiet, noiseless
 Silesia : Silesia
 silesian : Silesian, Silesia
@@ -26643,6 +26824,7 @@ sin labor : unemployed
 sin macula : spotless, immaculate
 sin par : peerless, unequaled, unmatched, unparalleled
 sin perder tempore : without wasting time
+sin personal : unmanned
 sin plus de demora : without further delay
 sin prejudicio de : without prejudice of
 sin reposo : unceasingly
@@ -26765,6 +26947,7 @@ sociar : to join or unite (one thing with another)
 societate : society
 societate anonyme : corporation, incorporated company, joint-stock company, limited company
 societate biblic : Bible Society
+societate de abundantia : affluent society
 societate de succursos : mutual benefit society
 societate de temperantia : temperance society
 societate in commandita : sleeping partnership
@@ -26865,6 +27048,7 @@ somniloquista : somniloquist
 somno : sleep
 somnolente : somnolent, sleepy, drowsy
 somnolentia : somnolence, sleepiness, drowsiness
+somno profunde : deep sleep
 son : (pl of esser) are
 sonalia : cattle bell
 sonante : sonant
@@ -26874,6 +27058,7 @@ sonar le piano : to play the piano
 sonata : sonata
 sonatina : sonatina
 sonator : sounder, player (of an instrument)
+sonator MP3 : MP3 player
 sonda : lead, plummet, sound, probe, borer, drill
 sondage : sounding, probing, boring, drilling
 sondar : to sound, probe, bore, drill
@@ -26927,6 +27112,7 @@ sovente : repeatedly, frequently, often, from time to time
 soveran : sovereign, supreme, possessing supreme power
 soveranitate : sovereignty
 soverano : sovereign, monarch, gold coin in Great Britain
+soverano absolute : absolute ruler
 soviet : soviet
 sovietic : soviet, sovietic
 sovietisar : to sovietize
@@ -27234,6 +27420,7 @@ statounitese : of the United States, American
 statua : statue
 statua de deo : image of god
 statua equestre : equestrian statue
+statua votive : votive statue
 statuari : statuary
 statuaria : statuary, art of making statues
 statuario : statue maker, statuary
@@ -27467,6 +27654,7 @@ sturno : starling
 Styge : Styx
 stygie : Stygian
 su : his, her, its, one's
+su multiple activitates le absorbe integremente : his multiple activities take up all his time
 su ver parolas : his very words, his actual words
 su viagiar per iste pais : his traveling through this country
 su vicino de tabula : the person sitting next to him/her
@@ -27826,6 +28014,7 @@ superior : higher, upper, superior
 superioritate : superiority
 superlative : superlative (supreme)
 superlativo : superlative
+superlativo absolute : absolute superlative
 supermundan : supermundane, supernatural
 supernatural : supernatural
 supernavigar : to sail above, float or sail on (top of)
@@ -27976,6 +28165,7 @@ Switza : Switzerland, Schwyz
 switze : Swiss
 switzo : Swiss (native of Switzerland, Swiss language or dialect)
 syllaba : syllable
+syllaba accentuate : accented syllable
 syllaba aperte : open syllable
 syllabar : to syllabify
 syllabario : syllabary
@@ -28061,6 +28251,7 @@ syringe : syrinx, panpipe
 syrio : Syrian, native of Syria
 systaltic : systaltic
 systema : system
+systema operative : operating system
 systema de education : educational system
 systema planetari : planetary system
 systema protective : protective system
@@ -28281,12 +28472,14 @@ telephonia : telephony
 telephonic : telephonic
 telephonista : (telephone) operator
 telephono : telephone
+telephone sin mano : hands-free phone
 telephoto : telephoto
 telephotographia : telephotography
 telescopar : to telescope
 telescopar se : to telescope
 telescopic : telescopic
 telescopio : telescope
+telespector : television viewer
 television : television
 temerari : temerarious
 temere : rash, temerous
@@ -28825,6 +29018,7 @@ totalitario : totalitarian
 totalitarismo : totalitarianism
 totalitate : totality
 tote : all, every, each
+tote derectos reservate : all rights reserved
 tote le caseo : all the cheese, the entire cheese
 tote le dia : all day (long), the entire day
 tote le duo : both
@@ -28941,6 +29135,7 @@ tranquillisar : to tranquillize, reassure
 tranquillisar se : to calm down, become calm
 tranquillitate : tranquility
 trans : across, over, beyond, on the farther side of
+trans le tempores : over time, across time
 trans le mundo : across the globe, around the world
 trans le seculas : across the centuries, through the centuries
 transaction : adjustment, compromise, transaction
@@ -29016,6 +29211,7 @@ transpirar : to perspire, sweat, transpire, emit, breathe forth, become known, l
 transpiration : perspiration
 transplantar : to transplant
 transplantation : transplantation
+transplantation de medulla ossose : bone marrow transplant
 transponer : to transpose, transfer, interchange the position of
 transportabile : transportable
 transportar : to transport, convey, enrapture
@@ -29054,6 +29250,7 @@ travaliar de sol ad sol : to work from sunrise to sunset
 travaliator : tormentor, workman, laborer
 travaliator social : social worker
 travalio : work, torment, labor, toil, travail
+travalio acceptabile : acceptable work, satisfactory work
 travalio occasional : part-time work, temporary work
 trave : beam, rafter
 traverso : through, from side to side
@@ -29362,6 +29559,7 @@ tungstic : tungstic
 tungstite : tungstite
 tungstosilicato : tungstosilicate
 tunnel : tunnel
+tunnel de accesso : access tunnel
 tunnel de metro : metro tunnel, subway tunnel
 turba : crowd, throng, mob, rabble
 turban : turban
@@ -29532,6 +29730,7 @@ un libro assi belle : so beautiful a book, such a beautiful book
 un lista de provisiones : a shopping list
 un lucta de vita e morte : a life-or-death struggle
 un mano lava le altere : you scratch my back, I scratch yours
+un majoritate de duo tertios : a two-thirds majority
 un mar de sanguine : a sea of blood
 un medie hora : half an hour
 un nocte insomne : a sleepless night
@@ -29855,6 +30054,8 @@ valle de lacrimas : vale of tears
 vallea : valley
 vallo : rampart, circumvallation
 valor : value, worth, valor
+valor absolute : absolute value
+valor absolute de un numero real : absolute value of a real number
 valor nominal : nominal value, face value
 valores : holdings (as stock, shares)
 valorisar : to valorize, fix prices by valorization
@@ -30110,6 +30311,7 @@ verisimilitude : likelihood, probability, verisimilitude
 verismo : verism
 verista : verist, verist, veristic
 veritate : truth, verity
+veritate absolute : absolute truth
 verme : worm
 verme de terra : earthworm
 vermente : really, truly, indeed
@@ -30148,6 +30350,7 @@ versification : versification
 versificator : versifier
 version : turning or turning round, version, translation
 verso : verse, verso, reverse or left-hand page; toward(s), to, in the direction of
+verso accentuate : accented verse
 verso basso : downwards
 verso blanc : blank verse
 verso infra : downwards
@@ -30223,6 +30426,7 @@ vexator : vexer
 vexatori : vexatious
 via : via, by way of, away (prep.); way, road, path, route, course (of action) (n.)
 via aeree : airway
+via/cammino de accesso : access road, access path
 via de aqua : leak
 via humide : wet process
 via impracticabile : impracticable or impassable road
@@ -30285,6 +30489,7 @@ victualiar : to provision, victual
 vidente : seeing, having the power of sight, clairvoyant
 vider : to see
 vider le jorno : to see the light (of day), live, be born
+vider per le oculos de : to see through the eyes of
 vidite que : seeing that, considering that
 vidua : widow, mourning widow, sweet scabious
 vidua de guerra : war widow
@@ -30417,6 +30622,7 @@ virgulettas quotation : mark or marks
 viril : virile
 virilitate : virility, potency, masculinity, manliness, manhood
 viro : man, male human being
+viro del etate median : middle-aged man
 virose : virose, poisonous
 virtual : virtual
 virtualitate : virtuality
@@ -30461,6 +30667,7 @@ vita campestre : country life
 vita cultural : cultural life
 vita de can : dog's life
 vita interior : inner life
+vita nocturne : nightlife
 vital : vital
 vitalismo : vitalism
 vitalista : vitalist
@@ -30519,6 +30726,7 @@ viver : to live
 viver de : to live on (something)
 viver de su rentas : to live on one's private means
 viver die post die : to live day by day
+viver in le abundantia : to live in abundance
 viver in un loco : to live in a place
 viver sol : to live alone
 viveres : victuals, food
@@ -30628,26 +30836,41 @@ Vosgos : Vosges Mountains
 vostre : your
 Vostre Excellentia : Your Excellency
 votante : voter
+votator : voter
 votar : to vow, vote, approve, determine
 votar per appello nominal : to vote by roll call
 votar pro le sinistra : to vote for the leftists
 votive : votive
 voto : vow, vote
 voto de confidentia : vote of confidence
+voucher : voucher
+voyeurismo : voyeurism
+voyeurista : voyeuristic
+voyeur: voyeur, peeping Tim
+vudu : voodoo
 vulcanic : Vulcanic, Vulcanian, volcanic
 vulcanie : Vulcanian
 vulcanisar : to volcanize, vulcanize
 vulcanisation : volcanization, vulcanization
 vulcanismo : volcanism, vulcanism
-vulcano : volcano
-Vulcano : Vulcan
+vulcanista : vulkanist
+vulcano active : active volcano
+vulcano de fango : mud volcano
+vulcano dormiente : dormant volcano
+vulcano extincte : extinct volcano
+vulcano in activitate : active volcano 
+vulcanologia : vulcanology
+vulcanologic : vulcanologic(al)
+vulcanologo : vulcanology
+vulcano submarin : underwater volcano
+vulcano : vulcanic
 vulgar : vulgar, of the common people, low, coarse
 vulgarisar : to vulgarize
 vulgarisation : vulgarization
 vulgarisator : vulgarizer
 vulgarismo : vulgarism, vulgarity, vulgar phrase or expression
 vulgaritate : vulgarity
-Vulgata : Vulgate
+Vulgata : Vulgate, Latin bible
 vulgo : common people, vulgus; commonly
 vulnerabile : vulnerable
 vulnerabilitate : vulnerability
