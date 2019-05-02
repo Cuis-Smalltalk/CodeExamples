@@ -1,8 +1,8 @@
-'From Cuis 5.0 of 7 November 2016 [latest update: #3430] on 21 October 2018 at 3:26:50 pm'!
+'From Cuis 5.0 of 7 November 2016 [latest update: #3724] on 2 May 2019 at 2:44:09 pm'!
 'Description Enter a word in English or Interlingua and find the corresponding Interlingua or English usage.'!
-!provides: 'IA-EN-Dictionary' 1 17!
+!provides: 'IA-EN-Dictionary' 1 18!
+!requires: 'Cuis-Base' 50 3724 nil!
 !requires: 'Morphic-Widgets-Extras' 1 7 nil!
-!requires: 'Cuis-Base' 50 3430 nil!
 SystemOrganization addCategory: #'IA-EN-Dictionary'!
 
 
@@ -443,14 +443,14 @@ interlinguaStarts: aString
 	
 	^DictData select: [ :pairArray | matchStr match: (pairArray at: 1) ]! !
 
-!IEDict class methodsFor: 'class initialization' stamp: 'KenD 10/13/2016 16:03:38'!
+!IEDict class methodsFor: 'class initialization' stamp: 'KenD 5/2/2019 14:43:54'!
 initialize
 	"Read in my data"
 "
 	IEDict initialize.
 "
 	| curIndex aLine |
-	DictData := Array new: 30811. "We know the exact size (wc -l iedict.txt) less 1"
+	DictData := Array new: 31034. "We know the exact size (wc -l iedict.txt) less 1"
 
 (self package fullFileName asFileEntry parent  // 'iedict.txt') readStreamDo: [ :fileStream |
 
