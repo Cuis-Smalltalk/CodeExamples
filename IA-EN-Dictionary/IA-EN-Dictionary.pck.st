@@ -1,7 +1,7 @@
-'From Cuis 5.0 of 7 November 2016 [latest update: #3724] on 2 May 2019 at 2:44:09 pm'!
+'From Cuis 5.0 [latest update: #4058] on 7 March 2020 at 2:52:51 pm'!
 'Description Enter a word in English or Interlingua and find the corresponding Interlingua or English usage.'!
-!provides: 'IA-EN-Dictionary' 1 18!
-!requires: 'Cuis-Base' 50 3724 nil!
+!provides: 'IA-EN-Dictionary' 1 19!
+!requires: 'Cuis-Base' 50 4058 nil!
 !requires: 'Morphic-Widgets-Extras' 1 7 nil!
 SystemOrganization addCategory: #'IA-EN-Dictionary'!
 
@@ -202,15 +202,13 @@ copySelectedResultToClipboard
 			[Clipboard storeObject: (self resultMorph getListItem: selectionIndex) asString]
 ! !
 
-!IEDictWindow methodsFor: 'menu' stamp: 'KenD 11/7/2016 14:19:47'!
+!IEDictWindow methodsFor: 'menu' stamp: 'KenD 3/7/2020 14:51:02'!
 resultsMenu
 
 	| aMenu |
 	aMenu _ MenuMorph new defaultTarget: self.
-	aMenu addList: #(
-		('copy selected (c)'	copySelectedResultToClipboard)
-		('copyAll (a)'	     		copyResultsToClipboard)
-		).
+	aMenu add: 'copy selected (c)' action: #copySelectedResultToClipboard.
+	aMenu add: 'copyAll (a)' action: #copyResultsToClipboard.
 	^ aMenu! !
 
 !IEDictWindow methodsFor: 'geometry' stamp: 'KenD 10/15/2016 13:39:57'!
@@ -224,11 +222,16 @@ initialExtent
 
 	^ (30 @ 16) * self textSizeUnit ! !
 
-!IEDictWindow methodsFor: 'geometry' stamp: 'KenD 10/15/2016 09:51:09'!
+!IEDictWindow methodsFor: 'geometry' stamp: 'KenD 3/7/2020 14:48:13'!
+minimumExtent
+
+	^ self initialExtent! !
+
+!IEDictWindow methodsFor: 'geometry' stamp: 'KenD 3/7/2020 14:46:04'!
 textSizeUnit
 	"Answer the scaling factor for sizing; note  method #fontPreferenceChanged"
 
-	^ AbstractFont default height! !
+	^ AbstractFont default lineSpacing! !
 
 !IEDictWindow methodsFor: 'events' stamp: 'KenD 10/16/2016 14:35:48'!
 englishContainsClick
