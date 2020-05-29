@@ -1,6 +1,6 @@
-'From Cuis 5.0 [latest update: #4194] on 29 May 2020 at 2:10:14 pm'!
+'From Cuis 5.0 [latest update: #4194] on 29 May 2020 at 2:38:33 pm'!
 'Description Comparing the Dependency Mechanism to the Observer Pattern which uses #triggerEvent: and #when:send:to:'!
-!provides: 'TrafficLight' 1 78!
+!provides: 'TrafficLight' 1 79!
 SystemOrganization addCategory: #'TrafficLight-Model'!
 SystemOrganization addCategory: #'TrafficLight-Views'!
 
@@ -176,13 +176,20 @@ t change.	"repeat"
 !Example2 commentStamp: '<historical>' prior: 0!
 An array of lights which can be commanded individually to turn on similar to the Blue Book[1] traffic light. When this occurs, the Observer Pattern[2] is used to cause all other lights to turn off.
 
+The Observer Pattern enables the following:
+
+    A one-to-many dependency between objects, without making the objects tightly coupled.
+    When one object changes state an open-ended number of dependent objects are updated automatically.
+    One object can notify an open-ended number of other objects.
+
+
 Copy the following to a Workspace, do (cmd-d) each statement individually, and observe the Transcript:
 
 t  := Example2 newRow.
 t change.	"repeat"
 
 [1] Goldberg and Robson, "Smalltalk-80, the Language and its Implementation", pp 240 - 243
-[2] https://paginas.fe.up.pt/~aaguiar/as/gof/hires/pat5gfso.htm
+[2] https://en.wikipedia.org/wiki/Observer_pattern
 !
 
 !Example3 commentStamp: '<historical>' prior: 0!

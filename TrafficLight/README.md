@@ -24,4 +24,4 @@ Either the Dependency Mechanism or the Observer Pattern can be used to accomplis
 
 [2] LaLonde and Pugh, "Inside Smalltalk, Volime II", 1.4 Dependency Maintenance, p 12
 
-[3] https://paginas.fe.up.pt/~aaguiar/as/gof/hires/pat5gfso.htm
+[3] https://en.wikipedia.org/wiki/Observer_pattern
