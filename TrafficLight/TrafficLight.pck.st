@@ -1,6 +1,6 @@
-'From Cuis 5.0 of 7 November 2016 [latest update: #3652] on 18 March 2019 at 12:45:56 pm'!
+'From Cuis 5.0 [latest update: #4194] on 29 May 2020 at 2:10:14 pm'!
 'Description Comparing the Dependency Mechanism to the Observer Pattern which uses #triggerEvent: and #when:send:to:'!
-!provides: 'TrafficLight' 1 77!
+!provides: 'TrafficLight' 1 78!
 SystemOrganization addCategory: #'TrafficLight-Model'!
 SystemOrganization addCategory: #'TrafficLight-Views'!
 
@@ -130,7 +130,7 @@ Example4 class
 Abstract class for TrafficLight models.!
 
 !DependencyModel commentStamp: '<historical>' prior: 0!
-A model for the Dependency Mechanism. No operational behavior but important ivars!!!
+A model for the Dependency Mechanism.!
 
 !Light commentStamp: 'dhn 11/13/2015 10:08' prior: 0!
 An abstract class for lights.!
@@ -138,7 +138,7 @@ An abstract class for lights.!
 !Light1 commentStamp: '<historical>' prior: 0!
 A model which uses the Dependency Mechanism[1].
 
-A "light" simulation with the ability to be turned on and off. Changes in state are communicated to other objects (unknown to Light1 instances) using the Dependency Mechanism. The #update: method of Light1 detects if a change to on is intended for this instance and if not, turns itself off.
+A "light" simulation with the ability to be turned on and off. Changes in state are communicated to other objects (unknown to Light1 instances) using the Dependency Mechanism. The #update: method of Light1 detects if a change to "on" is intended for this instance and if not, turns itself "off".
 
 [1] see "Dependency Maintenance" in:
 
@@ -148,12 +148,12 @@ LaLonde and Pugh, "Inside Smalltalk, Volume II", 1.4 Dependency Maintenance
 !Light2 commentStamp: '<historical>' prior: 0!
 A model which uses the Observer Pattern[1].
 
-A "light" simulation with the ability to be turned on and off. When an instance of Light2 receives the #turnOn message, it sends #triggerEvent: with the #turnedOn parameter. Views which need to react send #when:send:to:with: messages to this model with #turnedOn as the parameter during initialization.
+A "light" simulation with the ability to be turned on and off. When an instance of Light2 receives the #turnOn message, it sends #triggerEvent: with the #turnedOn parameter. Views which need to react to this event send #when:send:to:with: messages to this model with #turnedOn as the parameter. The message #when:send:to:with: is sent during initialization.
 
-[1] https://paginas.fe.up.pt/~aaguiar/as/gof/hires/pat5gfso.htm!
+[1] https://en.wikipedia.org/wiki/Observer_pattern!
 
 !ObserverModel commentStamp: '<historical>' prior: 0!
-A model for the Observer Pattern. No operational behavior but important ivars!!!
+A model for the Observer Pattern.!
 
 !LenseMorph commentStamp: 'dhn 12/11/2015 22:23' prior: 0!
 View for a traffic light lense.!
@@ -208,22 +208,15 @@ showLights
 	lights do: [:ea | str nextPutAll: ea isOn asString; space].
 	{str contents} print! !
 
-!Models methodsFor: 'operate' stamp: 'dhn 3/1/2019 19:57:04'!
-turnOn: lightNumber
-	"Turn on the light at lightNumber"
-	
-	(lights at: lightNumber) turnOn.
-	self showLights! !
-
 !Models methodsFor: 'accessing' stamp: 'dhn 3/10/2019 17:55:56'!
 lights
 	"Answer the value of lights"
 
 	^ lights! !
 
-!Models class methodsFor: 'instance creation' stamp: 'dhn 3/1/2019 20:18:07'!
+!Models class methodsFor: 'instance creation' stamp: 'dhn 5/29/2020 12:54:29'!
 with: numberOfLights
-	"Answer an instance with a specified number of lights"
+	"Answer an instance of the receiver with a specified number of lights"
 	
 	^ self new lights: numberOfLights! !
 
@@ -266,15 +259,15 @@ turnOff
 	self isOn
 		ifTrue: [status _ false]! !
 
-!Light class methodsFor: 'instance creation' stamp: 'dhn 11/13/2015 10:14'!
+!Light class methodsFor: 'instance creation' stamp: 'dhn 5/29/2020 12:53:33'!
 setOff
-	"Establish a new instance of me, in the off state"
+	"Establish a new instance of the receiver, in the off state"
 
 	^ self new setOff! !
 
-!Light class methodsFor: 'instance creation' stamp: 'dhn 11/13/2015 10:15'!
+!Light class methodsFor: 'instance creation' stamp: 'dhn 5/29/2020 12:53:43'!
 setOn
-	"Establish a new instance of me, in the on state"
+	"Establish a new instance of the receiver, in the on state"
 
 	^ self new setOn! !
 
@@ -289,9 +282,9 @@ turnOn
 			]
 	"#changed will trigger an event which can be detected by any dependent with an #update: method"! !
 
-!Light1 methodsFor: 'update' stamp: 'dhn 3/14/2019 16:19:26'!
+!Light1 methodsFor: 'update' stamp: 'dhn 5/29/2020 13:05:40'!
 update: aLight
-	"Respond to an event signalling 'change'. If the receiver and aLight are  the same, do nothing; otherwise, turn off. This  ensures that only one light in a collection can be on."
+	"Respond to an event signalling 'change'. If the receiver and aLight are  identical, do nothing; otherwise, turn off. This  ensures that only one light in a collection can be 'on'."
 	
 	aLight == self ifFalse: [self turnOff]! !
 
@@ -518,7 +511,7 @@ cycle
 	lite _ order atWrap: ndex.
 	(model lights at: lite) turnOn! !
 
-!Example3 methodsFor: 'initialization' stamp: 'dhn 3/14/2019 19:41:37'!
+!Example3 methodsFor: 'initialization' stamp: 'dhn 5/29/2020 12:32:05'!
 initialize
 	| buttonArea |
 	
@@ -539,7 +532,7 @@ initialize
 		addMorph: ((PluggableButtonMorph model: self action: #cycle label: 'change') color: Color green).
 	panel addMorph: buttonArea.
 	self 
-		morphExtent: 115@275;
+		morphExtent: 165@275;
 		addMorph: panel.
 	(1 to: model lights size) do: [:n | 
 		(model lights reverse at: n) addDependent: (lenses submorphs at: n)].
@@ -612,7 +605,7 @@ cycle
 	lite _ order atWrap: ndex.
 	(model lights at: lite) turnOn! !
 
-!Example4 methodsFor: 'initialization' stamp: 'dhn 3/16/2019 20:48:54'!
+!Example4 methodsFor: 'initialization' stamp: 'dhn 5/29/2020 12:28:42'!
 initialize
 	| buttonArea |
 	
@@ -633,7 +626,7 @@ initialize
 		addMorph: ((PluggableButtonMorph model: self action: #cycle label: 'change') color: Color green).
 	panel addMorph: buttonArea.
 	self 
-		morphExtent: 115@275;
+		morphExtent: 165@275;
 		addMorph: panel.
 	lenses submorphs do: [:ea | ea model when: #turnedOn send: #update: to: ea with: #turnedOn].
 	ndex _ 3.
@@ -663,23 +656,23 @@ panel: anObject
 
 	panel _ anObject! !
 
-!Example4 class methodsFor: 'instance creation' stamp: 'dhn 3/15/2019 13:20:55'!
+!Example4 class methodsFor: 'instance creation' stamp: 'dhn 5/29/2020 12:30:15'!
 open
 "	Answer an instance of this class.
 	To start from a Browser or a WorkSpace, do (cmd-d) the following:
 
-	Example3 open.
+	Example4 open.
 	
 "
 
 	self newRow openInHand! !
 
-!Example4 class methodsFor: 'instance creation' stamp: 'dhn 3/15/2019 13:20:55'!
+!Example4 class methodsFor: 'instance creation' stamp: 'dhn 5/29/2020 12:30:31'!
 open: aName
 "	Answer an instance of this class.
 	To start from a Browser or a WorkSpace, do (cmd-d) the following:
 
-	Example3 open: 'Some Street'.
+	Example4 open: 'Some Street'.
 	
 "
 	| win str |
