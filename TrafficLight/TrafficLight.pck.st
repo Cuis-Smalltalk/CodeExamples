@@ -1,6 +1,6 @@
-'From Cuis 5.0 [latest update: #4194] on 29 May 2020 at 2:38:33 pm'!
+'From Cuis 5.0 [latest update: #4195] on 29 May 2020 at 8:21:09 pm'!
 'Description Comparing the Dependency Mechanism to the Observer Pattern which uses #triggerEvent: and #when:send:to:'!
-!provides: 'TrafficLight' 1 79!
+!provides: 'TrafficLight' 1 80!
 SystemOrganization addCategory: #'TrafficLight-Model'!
 SystemOrganization addCategory: #'TrafficLight-Views'!
 
@@ -482,10 +482,11 @@ cycle
 	self ndex: (self ndex + 1).
 	(model lights atWrap: ndex) turnOn! !
 
-!Example1 methodsFor: 'initialization' stamp: 'dhn 3/10/2019 18:49:34'!
+!Example1 methodsFor: 'initialization' stamp: 'dhn 5/29/2020 17:51:30'!
 initialize
 	"Set the value of model and establish dependencies among the lights"
 	
+	super initialize.
 	model _ DependencyModel with: 3.
 	model lights do: [ :eachLight |
 		model lights do: [ :dependentLight |
@@ -499,10 +500,11 @@ cycle
 	self ndex: (self ndex + 1).
 	(model lights atWrap: ndex) turnOn! !
 
-!Example2 methodsFor: 'initialization' stamp: 'dhn 3/15/2019 13:11:58'!
+!Example2 methodsFor: 'initialization' stamp: 'dhn 5/29/2020 17:51:59'!
 initialize
 	"Set the value of model and establish communication among the lights"
 	
+	super initialize.
 	model _ ObserverModel with: 3.
 	model lights do: [ :eachLight |
 		model lights do: [ :otherLight |
