@@ -1,7 +1,7 @@
-'From Cuis 5.0 [latest update: #4058] on 7 March 2020 at 2:52:51 pm'!
+'From Cuis 5.0 [latest update: #4197] on 1 June 2020 at 4:09:27 pm'!
 'Description Enter a word in English or Interlingua and find the corresponding Interlingua or English usage.'!
-!provides: 'IA-EN-Dictionary' 1 19!
-!requires: 'Cuis-Base' 50 4058 nil!
+!provides: 'IA-EN-Dictionary' 1 20!
+!requires: 'Cuis-Base' 50 4197 nil!
 !requires: 'Morphic-Widgets-Extras' 1 7 nil!
 SystemOrganization addCategory: #'IA-EN-Dictionary'!
 
@@ -87,7 +87,7 @@ buildMorphicWindow
 	^ self
 ! !
 
-!IEDictWindow methodsFor: 'GUI building' stamp: 'KenD 10/16/2016 16:03:37'!
+!IEDictWindow methodsFor: 'GUI building' stamp: 'KenD 5/25/2020 14:18:16'!
 makeButtonArea
 	"Answer a LayoutMorph with our four buttons -- a column of two rows"
 	
@@ -98,7 +98,7 @@ makeButtonArea
 	interlinguaButtonLayout := LayoutMorph newRow. "a row of two buttons"
 
 	interlinguaButtonLayout 
-		padding: #center; 
+		axisEdgeWeight: #center; 
 		separation: 2;
 		addMorph: 
 			(PluggableButtonMorph 
@@ -114,7 +114,7 @@ makeButtonArea
 	englishButtonLayout := LayoutMorph newRow. "a row of two buttons"
 									.
 	englishButtonLayout 
-		padding: #center; 
+		axisEdgeWeight: #center; 
 		separation: 2;
 		addMorph: 
 			(PluggableButtonMorph 
@@ -135,7 +135,7 @@ makeButtonArea
 			yourself
 			! !
 
-!IEDictWindow methodsFor: 'GUI building' stamp: 'KenD 10/16/2016 17:54:17'!
+!IEDictWindow methodsFor: 'GUI building' stamp: 'KenD 5/25/2020 14:19:53'!
 makeEntryArea
 	"Answer a LayoutMoph containing the prompt and text entry area"
 	
@@ -162,7 +162,7 @@ makeEntryArea
 		layoutSpec: (LayoutSpec proportionalWidth: 1 fixedHeight: entryHeigth);
 		addMorph: promptMorph;
 		addMorph: entryTextMorph;
-		padding: #left
+		axisEdgeWeight: #rowLeft
 		yourself
 ! !
 
