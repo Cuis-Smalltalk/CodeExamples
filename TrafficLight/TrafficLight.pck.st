@@ -1,6 +1,6 @@
-'From Cuis 5.0 [latest update: #4208] on 8 June 2020 at 9:51:22 am'!
+'From Cuis 5.0 [latest update: #4208] on 8 June 2020 at 9:59:57 am'!
 'Description Comparing the Dependency Mechanism to the Observer Pattern which uses #triggerEvent: and #when:send:to:'!
-!provides: 'TrafficLight' 1 81!
+!provides: 'TrafficLight' 1 82!
 SystemOrganization addCategory: #'TrafficLight-Model'!
 SystemOrganization addCategory: #'TrafficLight-Views'!
 
@@ -520,7 +520,7 @@ cycle
 	lite _ order atWrap: ndex.
 	(model lights at: lite) turnOn! !
 
-!Example3 methodsFor: 'initialization' stamp: 'dhn 5/29/2020 12:32:05'!
+!Example3 methodsFor: 'initialization' stamp: 'dhn 6/8/2020 09:58:49'!
 initialize
 	| buttonArea |
 	
@@ -535,7 +535,7 @@ initialize
 	buttonArea  _ (LayoutMorph newRow name: #Buttons)
 		layoutSpec: (LayoutSpec proportionalHeight: 0.20);
 		color: Color black;
-		padding: #center.
+		axisEdgeWeight: #center.
 	buttonArea 
 		addMorph: ((PluggableButtonMorph model: self action: #quit label: 'quit') color: Color green);
 		addMorph: ((PluggableButtonMorph model: self action: #cycle label: 'change') color: Color green).
@@ -614,7 +614,7 @@ cycle
 	lite _ order atWrap: ndex.
 	(model lights at: lite) turnOn! !
 
-!Example4 methodsFor: 'initialization' stamp: 'dhn 5/29/2020 12:28:42'!
+!Example4 methodsFor: 'initialization' stamp: 'dhn 6/8/2020 09:58:22'!
 initialize
 	| buttonArea |
 	
@@ -629,7 +629,7 @@ initialize
 	buttonArea  _ (LayoutMorph newRow name: #Buttons)
 		layoutSpec: (LayoutSpec proportionalHeight: 0.20);
 		color: Color black;
-		padding: #center.
+		axisEdgeWeight: #center.
 	buttonArea 
 		addMorph: ((PluggableButtonMorph model: self action: #quit label: 'quit') color: Color green);
 		addMorph: ((PluggableButtonMorph model: self action: #cycle label: 'change') color: Color green).
