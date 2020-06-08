@@ -1,11 +1,14 @@
-'From Cuis 4.2 of 25 July 2013 [latest update: #2829] on 3 July 2016 at 6:57:46.602709 pm'!
+'From Cuis 5.0 [latest update: #4208] on 8 June 2020 at 9:47:45 am'!
 'Description Useful Cuis code patterns, intended to help the programmer exploit some of the features of Cuis classes. These examples separate model from view and feature two styles: coupled and decoupled.
 
 The coupled style employs the "dependency mechanism" and exposes the model to changes in the view and to views which were unanticipated. The primary methods of the dependency mechanism are #changed: and #update: .
 
 The decoupled style employs the "observer pattern" which ensures that the model can remain unaffected by changes to the view or by additional views. The primary methods of the observer pattern are #triggerEvent: and #when:send:to: . This is the preferred style for Cuis, although both styles can be found in the base.
 '!
-!provides: 'Code-Patterns' 1 3!
+!provides: 'Code-Patterns' 1 4!
+SystemOrganization addCategory: #'Code-Patterns'!
+
+
 !classDefinition: #SampleAbstractModel category: #'Code-Patterns'!
 Workspace subclass: #SampleAbstractModel
 	instanceVariableNames: 'authors authorIndex selectedAuthor quotes'
@@ -34,16 +37,6 @@ SampleAbstractModel subclass: #DecoupledModel
 	category: 'Code-Patterns'!
 !classDefinition: 'DecoupledModel class' category: #'Code-Patterns'!
 DecoupledModel class
-	instanceVariableNames: ''!
-
-!classDefinition: #DependencyExamples category: #'Code-Patterns'!
-Object subclass: #DependencyExamples
-	instanceVariableNames: ''
-	classVariableNames: ''
-	poolDictionaries: ''
-	category: 'Code-Patterns'!
-!classDefinition: 'DependencyExamples class' category: #'Code-Patterns'!
-DependencyExamples class
 	instanceVariableNames: ''!
 
 !classDefinition: #AnotherView category: #'Code-Patterns'!
@@ -86,6 +79,16 @@ WorkspaceWindow subclass: #DecoupledView
 DecoupledView class
 	instanceVariableNames: ''!
 
+!classDefinition: #DependencyExamples category: #'Code-Patterns'!
+Object subclass: #DependencyExamples
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'Code-Patterns'!
+!classDefinition: 'DependencyExamples class' category: #'Code-Patterns'!
+DependencyExamples class
+	instanceVariableNames: ''!
+
 
 !SampleAbstractModel commentStamp: 'dhn 12/6/2015 15:21' prior: 0!
 An abstract class containing methods common to some example models. Used to emphasize commonality and distinctions of the coupled and decoupled models.
@@ -101,14 +104,6 @@ The methods of this class are suitable for copying into classes being developed.
 An example model class which is unaware of its view or views. As additional views are deployed, their presence will entail no changes to this model.
 
 The methods of this class are suitable for copying into classes being developed. It is expected that many of the method comments will be removed or modified after they are incorporated in the new code. This class comment should also be changed.!
-
-!DependencyExamples commentStamp: 'dhn 1/12/2016 14:12' prior: 0!
-Observer Pattern and Dependency Mechanism examples.
-
-DependencyExamples relatedViews.			"Observer Pattern"
-DependencyExamples unrelatedViews.		"Observer Pattern"
-DependencyExamples coupledView.			"Dependency Mechanism"
-!
 
 !AnotherView commentStamp: 'dhn 11/17/2015 15:08' prior: 0!
 A view which takes advantage of the Cuis SystemWindow behavior.
@@ -130,6 +125,14 @@ A view which takes advantage of the Cuis SystemWindow behavior.
 
 The methods of this class are suitable for copying into classes being developed. It is expected that many of the method comments will be removed or modified after they are incorporated in the new code. This class comment should also be changed.!
 
+!DependencyExamples commentStamp: 'dhn 1/12/2016 14:12' prior: 0!
+Observer Pattern and Dependency Mechanism examples.
+
+DependencyExamples relatedViews.			"Observer Pattern"
+DependencyExamples unrelatedViews.		"Observer Pattern"
+DependencyExamples coupledView.			"Dependency Mechanism"
+!
+
 !SampleAbstractModel methodsFor: 'accessing' stamp: 'dhn 1/4/2016 12:27'!
 authorIndex
 	"Answer the value of authorIndex"
@@ -149,10 +152,56 @@ authors: anObject
 
 	authors _ anObject! !
 
+!SampleAbstractModel methodsFor: 'accessing' stamp: 'dhn 12/6/2015 15:00'!
+quotes
+	"Answer the value of quotes"
+
+	^ quotes! !
+
+!SampleAbstractModel methodsFor: 'accessing' stamp: 'dhn 12/6/2015 15:00'!
+quotes: anObject
+	"Set the value of quotes"
+
+	quotes _ anObject! !
+
+!SampleAbstractModel methodsFor: 'accessing' stamp: 'dhn 12/6/2015 15:00'!
+selectedAuthor
+	"Answer the value of selectedAuthor"
+
+	^ selectedAuthor! !
+
+!SampleAbstractModel methodsFor: 'accessing' stamp: 'dhn 12/6/2015 19:56'!
+selectedAuthor: anObject
+	"Set the value of selectedAuthor"
+
+	selectedAuthor _ anObject.
+	self changed: #authorIndex 	"enables deselection of the list by using the mouse"! !
+
 !SampleAbstractModel methodsFor: 'initialization' stamp: 'dhn 12/6/2015 15:00'!
 editorClass
 
 	^ TextEditor! !
+
+!SampleAbstractModel methodsFor: 'initialization' stamp: 'dhn 12/6/2015 21:12'!
+initialize
+	super initialize.
+	self quotes: self setQuotes.
+	self authors: (OrderedCollection with: 'Eddie' with: 'Winnie' with: 'Yogi' with: 'Willy' with: 'George').
+	authorIndex _ 0 	"no authors selected in the list"
+	! !
+
+!SampleAbstractModel methodsFor: 'initialization' stamp: 'dhn 12/6/2015 15:00'!
+setQuotes
+	"Answer a dictionary of quotes"
+	
+	^ (Dictionary new)
+		at: 'Yogi' put: 'When you come to a fork in the road, take it.';
+		at: 'Eddie' put: 'One never knows, do one?';
+		at: 'George' put: 'England and America are two countries separated by the same language.';
+		at: 'Winnie' put: 'This report, by its very length, defends itself against the risk of being read.';
+		at: 'Willy' put: 'There is a tide in the affairs of men
+Which, taken at the flood, leads on to fortune...';
+		yourself! !
 
 !SampleAbstractModel methodsFor: 'operating' stamp: 'dhn 7/3/2016 18:25'!
 fullAttribution
@@ -183,52 +232,6 @@ fullNames
 		at: 'Willy' put: 'William Shakespeare';
 		yourself! !
 
-!SampleAbstractModel methodsFor: 'initialization' stamp: 'dhn 12/6/2015 21:12'!
-initialize
-	super initialize.
-	self quotes: self setQuotes.
-	self authors: (OrderedCollection with: 'Eddie' with: 'Winnie' with: 'Yogi' with: 'Willy' with: 'George').
-	authorIndex _ 0 	"no authors selected in the list"
-	! !
-
-!SampleAbstractModel methodsFor: 'accessing' stamp: 'dhn 12/6/2015 15:00'!
-quotes
-	"Answer the value of quotes"
-
-	^ quotes! !
-
-!SampleAbstractModel methodsFor: 'accessing' stamp: 'dhn 12/6/2015 15:00'!
-quotes: anObject
-	"Set the value of quotes"
-
-	quotes _ anObject! !
-
-!SampleAbstractModel methodsFor: 'accessing' stamp: 'dhn 12/6/2015 15:00'!
-selectedAuthor
-	"Answer the value of selectedAuthor"
-
-	^ selectedAuthor! !
-
-!SampleAbstractModel methodsFor: 'accessing' stamp: 'dhn 12/6/2015 19:56'!
-selectedAuthor: anObject
-	"Set the value of selectedAuthor"
-
-	selectedAuthor _ anObject.
-	self changed: #authorIndex 	"enables deselection of the list by using the mouse"! !
-
-!SampleAbstractModel methodsFor: 'initialization' stamp: 'dhn 12/6/2015 15:00'!
-setQuotes
-	"Answer a dictionary of quotes"
-	
-	^ (Dictionary new)
-		at: 'Yogi' put: 'When you come to a fork in the road, take it.';
-		at: 'Eddie' put: 'One never knows, do one?';
-		at: 'George' put: 'England and America are two countries separated by the same language.';
-		at: 'Winnie' put: 'This report, by its very length, defends itself against the risk of being read.';
-		at: 'Willy' put: 'There is a tide in the affairs of men
-Which, taken at the flood, leads on to fortune...';
-		yourself! !
-
 !CoupledModel methodsFor: 'accessing' stamp: 'dhn 12/8/2015 13:03'!
 authorIndex: anObject
 	"Set the value of authorIndex"
@@ -237,11 +240,6 @@ authorIndex: anObject
 	textPane model actualContents: self fullAttribution.
 	self selectedAuthor: 
 		(authors at: anObject ifAbsent: nil)! !
-
-!CoupledModel methodsFor: 'initialization' stamp: 'dhn 12/6/2015 21:06'!
-initialize
-
-	super initialize! !
 
 !CoupledModel methodsFor: 'accessing' stamp: 'dhn 12/8/2015 12:47'!
 textPane
@@ -267,6 +265,11 @@ window: anObject
 
 	window _ anObject! !
 
+!CoupledModel methodsFor: 'initialization' stamp: 'dhn 12/6/2015 21:06'!
+initialize
+
+	super initialize! !
+
 !DecoupledModel methodsFor: 'accessing' stamp: 'dhn 12/6/2015 15:16'!
 authorIndex: anObject
 	"Set the value of authorIndex"
@@ -279,39 +282,6 @@ authorIndex: anObject
 !DecoupledModel methodsFor: 'initialization' stamp: 'dhn 12/6/2015 15:15'!
 initialize
 	super initialize! !
-
-!DependencyExamples class methodsFor: 'examples' stamp: 'dhn 1/4/2016 16:21'!
-coupledView
-	"
-	self coupledView.
-	"
-
-	CoupledView open! !
-
-!DependencyExamples class methodsFor: 'examples' stamp: 'dhn 1/8/2016 14:09'!
-relatedViews
-	"Demonstrate multiple views on the same model, which is independent of their existence. 
-	A change in one view is repeated in the other views.
-	
-	self relatedViews.
-	"
-	| mod |
-	
-	mod _ DecoupledModel new.
-	ButtonedView openOn: mod.
-	AnotherView openOn: mod.
-	DecoupledView openOn: mod! !
-
-!DependencyExamples class methodsFor: 'examples' stamp: 'dhn 1/4/2016 15:15'!
-unrelatedViews
-	"Demonstrate multiple views on the same model, which is independent of their existence. 
-	A change in one view causes no change in the other view.
-	
-	self unrelatedViews.
-	"
-
-	AnotherView openOn: DecoupledModel new.
-	DecoupledView openOn: DecoupledModel new! !
 
 !AnotherView methodsFor: 'initialization' stamp: 'dhn 1/4/2016 14:41'!
 buildMorphicWindow
@@ -424,7 +394,7 @@ openOn: aModel
 	or, use a Color class method"
 ! !
 
-!ButtonedView methodsFor: 'initialization' stamp: 'dhn 1/7/2016 11:11'!
+!ButtonedView methodsFor: 'initialization' stamp: 'dhn 6/8/2020 09:34:34'!
 buildMorphicWindow
 	"Specify the layout of the view"
 	| bbb |
@@ -434,7 +404,7 @@ buildMorphicWindow
 
 	bbb _ LayoutMorph newRow
 				separation: 10@5;
-				padding: #center;
+				axisEdgeWeight: #center;
 				name: #buttons. 	"give the PluggableListMorph a name which will appear in the halos"
 	bbb addAllMorphs: self setUpButtons.
 
@@ -447,6 +417,22 @@ buildMorphicWindow
 		addMorph: bbb layoutSpec: (LayoutSpec proportionalHeight: 0.2);
 		addAdjusterAndMorph: textPane layoutSpec: (LayoutSpec useAll)
 ! !
+
+!ButtonedView methodsFor: 'initialization' stamp: 'dhn 1/4/2016 18:56'!
+setUpButtons
+	"Answer a set of buttons"
+	| b1 b2 b3 b4 b5 all |
+	
+	b1 _ PluggableButtonMorph model: self action: #pressed1 label: (model authors at: 1). 
+	b2 _ PluggableButtonMorph model: self action: #pressed2 label: (model authors at: 2). 
+	b3 _ PluggableButtonMorph model: self action: #pressed3 label: (model authors at: 3). 
+	b4 _ PluggableButtonMorph model: self action: #pressed4 label: (model authors at: 4). 
+	b5 _ PluggableButtonMorph model: self action: #pressed5 label: (model authors at: 5).
+	
+	all _ {b1. b2. b3. b4. b5} reverse.
+	all do: [:ea | ea morphExtent: 100@30].
+	
+	^ all ! !
 
 !ButtonedView methodsFor: 'updating' stamp: 'dhn 1/4/2016 19:09'!
 pressed1
@@ -492,22 +478,6 @@ pressed5
 	
 	self whatWasSaid
 ! !
-
-!ButtonedView methodsFor: 'initialization' stamp: 'dhn 1/4/2016 18:56'!
-setUpButtons
-	"Answer a set of buttons"
-	| b1 b2 b3 b4 b5 all |
-	
-	b1 _ PluggableButtonMorph model: self action: #pressed1 label: (model authors at: 1). 
-	b2 _ PluggableButtonMorph model: self action: #pressed2 label: (model authors at: 2). 
-	b3 _ PluggableButtonMorph model: self action: #pressed3 label: (model authors at: 3). 
-	b4 _ PluggableButtonMorph model: self action: #pressed4 label: (model authors at: 4). 
-	b5 _ PluggableButtonMorph model: self action: #pressed5 label: (model authors at: 5).
-	
-	all _ {b1. b2. b3. b4. b5} reverse.
-	all do: [:ea | ea morphExtent: 100@30].
-	
-	^ all ! !
 
 !ButtonedView methodsFor: 'updating' stamp: 'dhn 1/4/2016 16:22'!
 whatWasSaid
@@ -790,3 +760,36 @@ openOn: aModel
 									Theme current workspace 
 	or, use a Color class method"
 ! !
+
+!DependencyExamples class methodsFor: 'examples' stamp: 'dhn 1/4/2016 16:21'!
+coupledView
+	"
+	self coupledView.
+	"
+
+	CoupledView open! !
+
+!DependencyExamples class methodsFor: 'examples' stamp: 'dhn 1/8/2016 14:09'!
+relatedViews
+	"Demonstrate multiple views on the same model, which is independent of their existence. 
+	A change in one view is repeated in the other views.
+	
+	self relatedViews.
+	"
+	| mod |
+	
+	mod _ DecoupledModel new.
+	ButtonedView openOn: mod.
+	AnotherView openOn: mod.
+	DecoupledView openOn: mod! !
+
+!DependencyExamples class methodsFor: 'examples' stamp: 'dhn 1/4/2016 15:15'!
+unrelatedViews
+	"Demonstrate multiple views on the same model, which is independent of their existence. 
+	A change in one view causes no change in the other view.
+	
+	self unrelatedViews.
+	"
+
+	AnotherView openOn: DecoupledModel new.
+	DecoupledView openOn: DecoupledModel new! !

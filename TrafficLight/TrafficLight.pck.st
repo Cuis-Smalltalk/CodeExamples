@@ -1,6 +1,6 @@
-'From Cuis 5.0 [latest update: #4195] on 29 May 2020 at 8:21:09 pm'!
+'From Cuis 5.0 [latest update: #4208] on 8 June 2020 at 9:51:22 am'!
 'Description Comparing the Dependency Mechanism to the Observer Pattern which uses #triggerEvent: and #when:send:to:'!
-!provides: 'TrafficLight' 1 80!
+!provides: 'TrafficLight' 1 81!
 SystemOrganization addCategory: #'TrafficLight-Model'!
 SystemOrganization addCategory: #'TrafficLight-Views'!
 
@@ -409,7 +409,7 @@ ndex: anObject
 
 	ndex _ anObject! !
 
-!TrafficLight methodsFor: 'initialization' stamp: 'dhn 3/17/2019 15:45:01'!
+!TrafficLight methodsFor: 'initialization' stamp: 'dhn 6/8/2020 09:49:37'!
 paneLabel: aString
 	"Answer the layout for an example"
 	| pane sM label block off |
@@ -428,7 +428,7 @@ paneLabel: aString
 		layoutSpec: (LayoutSpec proportionalHeight: 0.10).
 	label 
 		color: Color lightBlue;
-		padding: #center;
+		axisEdgeWeight: #center;
 		addMorph: sM.
 	
 	self lenses: ((LayoutMorph newColumn separation: 0@10) name: 'Lenses').
