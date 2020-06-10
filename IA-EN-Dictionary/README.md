@@ -23,4 +23,4 @@ Then execute
 
 Or use the World menu->Open command
 
-![IA<->EN Lookup](IA\<-\>EN-lookup.png)
+![IA<->EN Lookup](IA-EN-lookup.png)
