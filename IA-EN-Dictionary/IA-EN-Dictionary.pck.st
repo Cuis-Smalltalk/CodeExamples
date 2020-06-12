@@ -1,7 +1,7 @@
-'From Cuis 5.0 [latest update: #4197] on 1 June 2020 at 4:09:27 pm'!
+'From Cuis 5.0 [latest update: #4219] on 12 June 2020 at 2:57:22 pm'!
 'Description Enter a word in English or Interlingua and find the corresponding Interlingua or English usage.'!
-!provides: 'IA-EN-Dictionary' 1 20!
-!requires: 'Cuis-Base' 50 4197 nil!
+!provides: 'IA-EN-Dictionary' 1 21!
+!requires: 'Cuis-Base' 50 4219 nil!
 !requires: 'Morphic-Widgets-Extras' 1 7 nil!
 SystemOrganization addCategory: #'IA-EN-Dictionary'!
 
@@ -227,11 +227,11 @@ minimumExtent
 
 	^ self initialExtent! !
 
-!IEDictWindow methodsFor: 'geometry' stamp: 'KenD 3/7/2020 14:46:04'!
+!IEDictWindow methodsFor: 'geometry' stamp: 'KenD 6/12/2020 14:57:20'!
 textSizeUnit
 	"Answer the scaling factor for sizing; note  method #fontPreferenceChanged"
 
-	^ AbstractFont default lineSpacing! !
+	^ Preferences standardListFont lineSpacing! !
 
 !IEDictWindow methodsFor: 'events' stamp: 'KenD 10/16/2016 14:35:48'!
 englishContainsClick
