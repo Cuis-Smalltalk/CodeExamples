@@ -14,4 +14,4 @@ Install the package, then:
 >
 >DependencyExamples coupledView.			"Dependency Mechanism"
 
-Tested in Cuis 5.0  rev 3631 on 2/25/2019
+Tested in Cuis 5.0  rev 4208 on 6/14/2020
