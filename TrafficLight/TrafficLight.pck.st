@@ -1,6 +1,7 @@
 'From Cuis 5.0 [latest update: #4219] on 12 June 2020 at 11:50:41 am'!
 'Description Comparing the Dependency Mechanism to the Observer Pattern which uses #triggerEvent: and #when:send:to:'!
-!provides: 'TrafficLight' 1 83!
+!provides: 'TrafficLight' 1 85!
+!requires: 'Morphic-Deprecated' 1 0 nil!
 SystemOrganization addCategory: #'TrafficLight-Model'!
 SystemOrganization addCategory: #'TrafficLight-Views'!
 
@@ -419,7 +420,7 @@ paneLabel: aString
 		color: Color transparent;
 		morphExtent: 115@275.
 							
-	sM _ StringMorph contents: aString.
+	sM _ LabelMorph contents: aString.
 	sM
 		name: 'street';
 		font: (FontFamily defaultFamilyPointSize: 15).
