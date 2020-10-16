@@ -1,28 +1,28 @@
-'From Cuis 5.0 [latest update: #4219] on 12 June 2020 at 2:57:22 pm'!
+'From Cuis 5.0 [latest update: #4413] on 16 October 2020 at 3:30:35 pm'!
 'Description Enter a word in English or Interlingua and find the corresponding Interlingua or English usage.'!
-!provides: 'IA-EN-Dictionary' 1 21!
-!requires: 'Cuis-Base' 50 4219 nil!
+!provides: 'IA-EN-Dictionary' 1 24!
+!requires: 'Cuis-Base' 50 4413 nil!
 !requires: 'Morphic-Widgets-Extras' 1 7 nil!
-SystemOrganization addCategory: #'IA-EN-Dictionary'!
+SystemOrganization addCategory: 'IA-EN-Dictionary'!
 
 
-!classDefinition: #IEDictWindow category: #'IA-EN-Dictionary'!
+!classDefinition: #IEDictWindow category: 'IA-EN-Dictionary'!
 SystemWindow subclass: #IEDictWindow
 	instanceVariableNames: 'entryTextMorph promptMorph resultMorph'
 	classVariableNames: ''
-	poolDictionaries: ''
+	poolDictionaries: 'IAENDictionary'
 	category: 'IA-EN-Dictionary'!
-!classDefinition: 'IEDictWindow class' category: #'IA-EN-Dictionary'!
+!classDefinition: 'IEDictWindow class' category: 'IA-EN-Dictionary'!
 IEDictWindow class
 	instanceVariableNames: ''!
 
-!classDefinition: #IEDict category: #'IA-EN-Dictionary'!
+!classDefinition: #IEDict category: 'IA-EN-Dictionary'!
 Object subclass: #IEDict
 	instanceVariableNames: 'searchString searchResult resultIndex'
 	classVariableNames: 'DictData'
-	poolDictionaries: ''
+	poolDictionaries: 'IAENDictionary'
 	category: 'IA-EN-Dictionary'!
-!classDefinition: 'IEDict class' category: #'IA-EN-Dictionary'!
+!classDefinition: 'IEDict class' category: 'IA-EN-Dictionary'!
 IEDict class
 	instanceVariableNames: 'result'!
 
@@ -135,7 +135,7 @@ makeButtonArea
 			yourself
 			! !
 
-!IEDictWindow methodsFor: 'GUI building' stamp: 'KenD 5/25/2020 14:19:53'!
+!IEDictWindow methodsFor: 'GUI building' stamp: 'KenD 10/16/2020 15:27:40'!
 makeEntryArea
 	"Answer a LayoutMoph containing the prompt and text entry area"
 	
@@ -144,7 +144,7 @@ makeEntryArea
 	
 	entryLayout := LayoutMorph newRow.
 	
-	promptMorph := (StringMorph contents: 'Enter Text: ') 
+	promptMorph := (LabelMorph contents: 'Enter Text: ') 
 					emphasis: AbstractFont boldCode ; 
 					yourself.
 	promptMorph  layoutSpec: 
@@ -409,6 +409,10 @@ searchString
 searchString: aRegularExpressionString
 	
 	searchString := aRegularExpressionString! !
+
+!IEDict methodsFor: 'testing' stamp: 'KenD 6/28/2020 15:47:34'!
+is: aSymbol
+	^ aSymbol == #IEDict or: [ super is: aSymbol ]! !
 
 !IEDict class methodsFor: 'lookup' stamp: 'KenD 10/14/2016 14:59:22'!
 englishContains: aString
