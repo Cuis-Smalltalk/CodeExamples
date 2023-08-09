@@ -1,6 +1,6 @@
-'From Cuis 5.0 [latest update: #4413] on 16 October 2020 at 3:30:35 pm'!
+'From Cuis 6.0 [latest update: #5979] on 9 August 2023 at 10:00:08 pm'!
 'Description Enter a word in English or Interlingua and find the corresponding Interlingua or English usage.'!
-!provides: 'IA-EN-Dictionary' 1 24!
+!provides: 'IA-EN-Dictionary' 1 26!
 !requires: 'Cuis-Base' 50 4413 nil!
 !requires: 'Morphic-Widgets-Extras' 1 7 nil!
 SystemOrganization addCategory: 'IA-EN-Dictionary'!
@@ -314,12 +314,13 @@ whyMe
 
 	^ IEDict whyMe 	! !
 
-!IEDictWindow class methodsFor: 'menu-world' stamp: 'KenD 10/17/2018 23:41:06'!
-worldMenuForOpenGroup
+!IEDictWindow class methodsFor: 'menu-world' stamp: 'mnqpr 8/9/2023 21:12:32'!
+worldMenuOptions
 	"Answer the information required to add me to the World menu-->Open.. submenu"
 	"i.e. an array with one item: a Dictionary"
 	| arr |
 	arr := `{{
+			#submenuOf -> TheWorldMenu openLabel.
 			#itemGroup 		-> 		10.
 			#itemOrder 		-> 		20.
 			#label 			->			'IA<-->EN'.
