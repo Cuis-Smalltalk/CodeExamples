@@ -1,28 +1,28 @@
-'From Cuis 6.0 [latest update: #5979] on 9 August 2023 at 10:00:08 pm'!
+'From Cuis7.1 [latest update: #6378] on 18 May 2024 at 4:42:11 pm'!
 'Description Enter a word in English or Interlingua and find the corresponding Interlingua or English usage.'!
-!provides: 'IA-EN-Dictionary' 1 26!
+!provides: 'IA-EN-Dictionary' 1 27!
 !requires: 'Cuis-Base' 50 4413 nil!
 !requires: 'Morphic-Widgets-Extras' 1 7 nil!
-SystemOrganization addCategory: 'IA-EN-Dictionary'!
+SystemOrganization addCategory: #'IA-EN-Dictionary'!
 
 
-!classDefinition: #IEDictWindow category: 'IA-EN-Dictionary'!
+!classDefinition: #IEDictWindow category: #'IA-EN-Dictionary'!
 SystemWindow subclass: #IEDictWindow
 	instanceVariableNames: 'entryTextMorph promptMorph resultMorph'
 	classVariableNames: ''
 	poolDictionaries: 'IAENDictionary'
 	category: 'IA-EN-Dictionary'!
-!classDefinition: 'IEDictWindow class' category: 'IA-EN-Dictionary'!
+!classDefinition: 'IEDictWindow class' category: #'IA-EN-Dictionary'!
 IEDictWindow class
 	instanceVariableNames: ''!
 
-!classDefinition: #IEDict category: 'IA-EN-Dictionary'!
+!classDefinition: #IEDict category: #'IA-EN-Dictionary'!
 Object subclass: #IEDict
 	instanceVariableNames: 'searchString searchResult resultIndex'
 	classVariableNames: 'DictData'
 	poolDictionaries: 'IAENDictionary'
 	category: 'IA-EN-Dictionary'!
-!classDefinition: 'IEDict class' category: 'IA-EN-Dictionary'!
+!classDefinition: 'IEDict class' category: #'IA-EN-Dictionary'!
 IEDict class
 	instanceVariableNames: 'result'!
 
@@ -166,18 +166,18 @@ makeEntryArea
 		yourself
 ! !
 
-!IEDictWindow methodsFor: 'GUI building' stamp: 'KenD 11/7/2016 14:25:13'!
+!IEDictWindow methodsFor: 'GUI building' stamp: 'jmv 5/17/2024 17:57:50'!
 makeResultsArea
 	"Answer a LayoutMoph containing the results of the query"
 	
 	resultMorph := (PluggableListMorph
-		model: model 
+		withModel: model 
 		listGetter: #resultAsList
 		indexGetter: #resultIndex
-		indexSetter: #resultIndex:
-		mainView: self
-		menuGetter: #resultsMenu
-		keystrokeAction: #resultsKey:from:).
+		indexSetter: #resultIndex:)
+			mainView: self
+			menuGetter: #resultsMenu
+			keystrokeAction: #resultsKey:from:.
 		
 	^ resultMorph 
 		layoutSpec: (LayoutSpec proportionalWidth: 1.0 proportionalHeight: 0.98);  

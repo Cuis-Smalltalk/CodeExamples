@@ -1,11 +1,11 @@
-'From Cuis 5.0 [latest update: #4208] on 8 June 2020 at 9:47:45 am'!
+'From Cuis7.1 [latest update: #6378] on 18 May 2024 at 4:27:24 pm'!
 'Description Useful Cuis code patterns, intended to help the programmer exploit some of the features of Cuis classes. These examples separate model from view and feature two styles: coupled and decoupled.
 
 The coupled style employs the "dependency mechanism" and exposes the model to changes in the view and to views which were unanticipated. The primary methods of the dependency mechanism are #changed: and #update: .
 
 The decoupled style employs the "observer pattern" which ensures that the model can remain unaffected by changes to the view or by additional views. The primary methods of the observer pattern are #triggerEvent: and #when:send:to: . This is the preferred style for Cuis, although both styles can be found in the base.
 '!
-!provides: 'Code-Patterns' 1 4!
+!provides: 'Code-Patterns' 1 5!
 SystemOrganization addCategory: #'Code-Patterns'!
 
 
@@ -283,7 +283,7 @@ authorIndex: anObject
 initialize
 	super initialize! !
 
-!AnotherView methodsFor: 'initialization' stamp: 'dhn 1/4/2016 14:41'!
+!AnotherView methodsFor: 'initialization' stamp: 'jmv 5/17/2024 17:55:33'!
 buildMorphicWindow
 	"Specify the layout of the view"
 	| listM |
@@ -291,17 +291,14 @@ buildMorphicWindow
 	self layoutMorph beRow 	"make use of the layoutMorph already in SystemWindow; change it from column to row"
 		name: #'Pattern Row'. 	"give the layoutMorph a name which will appear in the halos"
 
-	listM _ (PluggableListMorph
-				model: model 	"the object specified in self class open"
+	listM := (PluggableListMorph
+				withModel: model 	"the object specified in self class open"
 				listGetter: #authors 	"the method in 'model' which answers the list content"
 				indexGetter: #authorIndex 	"the method in 'model' which answers the selection made in the list"
-				indexSetter: #authorIndex:	"the method in 'model' which sets the list index"
-				mainView: nil
-				menuGetter: nil
-				keystrokeAction: nil)
+				indexSetter: #authorIndex:	)"the method in 'model' which sets the list index"
 					name: #author. 	"give the PluggableListMorph a name which will appear in the halos"
 
-	textPane _ (TextModelMorph 
+	textPane := (TextModelMorph 
 		withModel: (TextModel withText: 'foo')) 	"note the different model specification"
 			askBeforeDiscardingEdits: false;	"discard changes to the text"
 			name: #quote. 	"give the TextModelMorph a name which will appear in the halos"
@@ -567,22 +564,19 @@ title
 
 	^ 'Buttons Up on the Decoupled Model'! !
 
-!CoupledView methodsFor: 'initialization' stamp: 'dhn 12/8/2015 12:55'!
+!CoupledView methodsFor: 'initialization' stamp: 'jmv 5/17/2024 17:54:20'!
 buildMorphicWindow
 	"Specify the layout of the view"
 	| listM |
 	
-	listM _ (PluggableListMorph
-				model: model 	"the object specified in self class open"
+	listM := (PluggableListMorph
+				withModel: model 	"the object specified in self class open"
 				listGetter: #authors 	"the method in 'model' which answers the list content"
 				indexGetter: #authorIndex 	"the method in 'model' which answers the selection made in the list"
-				indexSetter: #authorIndex:	"the method in 'model' which sets the list index"
-				mainView: nil
-				menuGetter: nil
-				keystrokeAction: nil)
+				indexSetter: #authorIndex:	)"the method in 'model' which sets the list index"
 					name: #author. 	"give the PluggableListMorph a name which will appear in the halos"
 
-	textMorph _ (TextModelMorph 
+	textMorph := (TextModelMorph 
 		withModel: (TextModel withText: 'foo')) 	"note the different model specification"
 			askBeforeDiscardingEdits: false;	"discard changes to the text"
 			name: #quote. 	"give the TextModelMorph a name which will appear in the halos"
@@ -650,7 +644,7 @@ open
 	or, use a Color class method"
 ! !
 
-!DecoupledView methodsFor: 'initialization' stamp: 'dhn 1/4/2016 14:39'!
+!DecoupledView methodsFor: 'initialization' stamp: 'jmv 5/17/2024 17:55:51'!
 buildMorphicWindow
 	"Specify the layout of the view"
 	| listM |
@@ -658,17 +652,14 @@ buildMorphicWindow
 	self layoutMorph beRow 	"make use of the layoutMorph already in SystemWindow; change it from column to row"
 		name: #'Pattern Row'. 	"give the layoutMorph a name which will appear in the halos"
 
-	listM _ (PluggableListMorph
-				model: model 	"the object specified in self class open"
+	listM := (PluggableListMorph
+				withModel: model 	"the object specified in self class open"
 				listGetter: #authors 	"the method in 'model' which answers the list content"
 				indexGetter: #authorIndex 	"the method in 'model' which answers the selection made in the list"
-				indexSetter: #authorIndex:	"the method in 'model' which sets the list index"
-				mainView: nil
-				menuGetter: nil
-				keystrokeAction: nil)
+				indexSetter: #authorIndex:)	"the method in 'model' which sets the list index"
 					name: #author. 	"give the PluggableListMorph a name which will appear in the halos"
 
-	textPane _ (TextModelMorph 
+	textPane := (TextModelMorph 
 		withModel: (TextModel withText: 'foo')) 	"note the different model specification"
 			askBeforeDiscardingEdits: false;	"discard changes to the text"
 			name: #quote. 	"give the TextModelMorph a name which will appear in the halos"
