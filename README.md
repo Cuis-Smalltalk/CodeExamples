@@ -1,7 +1,8 @@
 # CodeExamples
 Examples to aid Programming with Cuis
 
-Note also documentation in 
+Some of this code is from tutorials available in
 
- https://github.com/Cuis-Smalltalk/Learning-Cuis
+  https://github.com/DrCuis
+
 
