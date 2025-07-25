@@ -1,6 +1,6 @@
 'From Cuis 5.0 [latest update: #4219] on 12 June 2020 at 11:50:41 am'!
 'Description Comparing the Dependency Mechanism to the Observer Pattern which uses #triggerEvent: and #when:send:to:'!
-!provides: 'TrafficLight' 1 86!
+!provides: 'TrafficLight' 1 87!
 !requires: 'Morphic-Widgets-Extras' 1 0 nil!
 SystemOrganization addCategory: #'TrafficLight-Model'!
 SystemOrganization addCategory: #'TrafficLight-Views'!
@@ -77,7 +77,7 @@ LenseMorph class
 	instanceVariableNames: ''!
 
 !classDefinition: #TrafficLight category: #'TrafficLight-Views'!
-LayoutMorph subclass: #TrafficLight
+LinearLayoutMorph subclass: #TrafficLight
 	instanceVariableNames: 'model ndex'
 	classVariableNames: ''
 	poolDictionaries: ''
