@@ -1,6 +1,6 @@
-'From Cuis7.3 [latest update: #7256] on 31 May 2025 at 2:45:38 pm'!
+'From Cuis7.5 [latest update: #7683] on 3 November 2025 at 5:20:01 pm'!
 'Description Subclass of Sample01Star with color and step-based animation.'!
-!provides: 'Morphic-AnimatedStar' 1 1!
+!provides: 'Morphic-AnimatedStar' 1 2!
 !requires: 'Cuis-Base' 73 7256 nil!
 SystemOrganization addCategory: #'Morphic-AnimatedStar'!
 
@@ -168,18 +168,6 @@ animateAStep
 
 
 ! !
-
-!AnimatedStar methodsFor: 'updating' stamp: 'KenD 5/31/2025 12:58:23'!
-startStepping
-
-	| myWorld |
-	myWorld := self runningWorld.
-	myWorld ifNotNil: [
-		myWorld startStepping: self 
-		   		 at: Time localMillisecondClock 
-		  		 selector: #step 
-		  		 stepTime: self stepTime.
-	]! !
 
 !AnimatedStar methodsFor: 'updating' stamp: 'KenD 5/31/2025 12:47:54'!
 step
