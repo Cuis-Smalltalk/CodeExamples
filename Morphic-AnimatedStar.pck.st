@@ -1,7 +1,7 @@
 'From Cuis7.5 [latest update: #7683] on 3 November 2025 at 5:20:01 pm'!
 'Description Subclass of Sample01Star with color and step-based animation.'!
-!provides: 'Morphic-AnimatedStar' 1 2!
-!requires: 'Cuis-Base' 73 7256 nil!
+!provides: 'Morphic-AnimatedStar' 1.0.3!
+!requires: 'Cuis-Base' '7.9.8257' '7.*.*'!
 SystemOrganization addCategory: #'Morphic-AnimatedStar'!
 
 
