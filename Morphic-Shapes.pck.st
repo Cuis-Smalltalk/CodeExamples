@@ -1,6 +1,6 @@
 'From Cuis7.5 [latest update: #7681] on 3 November 2025 at 4:19:18 pm'!
 'Description '!
-!provides: 'Morphic-Shapes' 1 1!
+!provides: 'Morphic-Shapes' '1.1.0'!
 SystemOrganization addCategory: #'Morphic-Shapes'!
 
 

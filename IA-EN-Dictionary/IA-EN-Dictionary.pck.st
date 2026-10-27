@@ -1,7 +1,7 @@
 'From Cuis7.5 [latest update: #7262] on 8 June 2025 at 3:21:13 pm'!
 'Description Enter a word in English or Interlingua and find the corresponding Interlingua or English usage. '!
-!provides: 'IA-EN-Dictionary' 1 3!
-!requires: 'UI-Entry' 1 56 nil!
+!provides: 'IA-EN-Dictionary' '1.3.0'!
+!requires: 'UI-Entry' '1.56.0' '1.*.*'!
 SystemOrganization addCategory: #'IA-EN-Dictionary'!
 
 

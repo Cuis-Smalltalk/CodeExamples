@@ -5,7 +5,7 @@ The coupled style employs the "dependency mechanism" and exposes the model to ch
 
 The decoupled style employs the "observer pattern" which ensures that the model can remain unaffected by changes to the view or by additional views. The primary methods of the observer pattern are #triggerEvent: and #when:send:to: . This is the preferred style for Cuis, although both styles can be found in the base.
 '!
-!provides: 'Code-Patterns' 1 5!
+!provides: 'Code-Patterns' '1.5.0'!
 SystemOrganization addCategory: #'Code-Patterns'!
 
 
