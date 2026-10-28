@@ -1,4 +1,4 @@
-'From Cuis7.9 [latest update: #8296] on 28 October 2026 at 3:59:31 pm'!
+'From Cuis7.9 [latest update: #8296] on 28 October 2026 at 4:56:53 pm'!
 'Description A port of Bouncing Atoms with the atoms in a SystemWindow. A pop-up menu enables selection of options, including an active plot of infection history, also in a SystemWindow.'!
 !provides: 'BouncingAtoms' '1.42.0'!
 !requires: 'UI-Widgets' '1.0.0' '*.*.*'!
@@ -371,13 +371,14 @@ how
 	BouncingAtomsMorph open.
 "! !
 
-!BouncingAtomsMorph class methodsFor: 'class initialization' stamp: 'jmv 10/May/2016, 4:40:00 pm (UTC)'!
+!BouncingAtomsMorph class methodsFor: 'class initialization' stamp: 'KenD 28/Oct/2026, 11:56:23 pm (UTC)'!
 initializedInstance
 	"Establish the window with some bouncing atoms"
 	| win morph |
 	
-	morph _ self new.
-	win _ morph embeddedInMorphicWindowLabeled: 'Bouncing Atoms'.
+	morph := self new.
+	win := morph embeddedInMorphicWindowLabeled: 'Bouncing Atoms'.
+	win borderColor: Color cyan.
 	win setProperty: #minimumExtent toValue: 88@85.
 	morph setProperty: #drawAsRect toValue: false.
 	
